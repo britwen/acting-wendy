@@ -66,6 +66,10 @@
 .igIcon--light {
     fill: #f3efeb;
 }
+.igIcon--topRight {
+    float: right;
+    margin-right: .5em;
+}
 .fbIcon {
     height: 1em;
     width: 1em;
@@ -73,12 +77,22 @@
 .fbIcon--light {
     fill: #f3efeb;
 }
+.fbIcon--topRight {
+    float: right;
+    margin-right: .5em;
+}
 .twitterIcon {
     height: 1em;
     width: 1em;
 }
 .twitterIcon--light {
     fill: #f3efeb;
+}
+.twitterIcon--topRight {
+    float: right;
+}
+.h2 {
+    clear: both;
 }
 /* ============================================================
   Module CSS
