@@ -33,7 +33,7 @@
 .container--landingPage {
     background-color: #4f3e33;
 }
-.backgroundTexture {
+.container__backgroundTexture {
     background-image: url("img/texture_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -41,14 +41,14 @@
     height: 100%;
     opacity: .45;
 }
-.backgroundTextureFacilitator {
+.container__backgroundTextureFacilitator {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
-.container__grid {
+.container__backgroundTextureFacilitator__grid {
     height: 87%;
     width: 87%;
     margin: auto;
