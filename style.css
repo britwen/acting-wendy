@@ -59,6 +59,21 @@
     margin: auto;
     background-color: red;
 }
+.igIcon {
+    fill: #f3efeb;
+    height: 1em;
+    width: 1em;
+}
+.fbIcon {
+    fill: #f3efeb;
+    height: 1em;
+    width: 1em;
+}
+.twitterIcon {
+    fill: #f3efeb;
+    height: 1em;
+    width: 1em;
+}
 /* ============================================================
   Module CSS
 ============================================================ */
