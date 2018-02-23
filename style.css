@@ -18,8 +18,28 @@
 /* ============================================================
   Layout CSS
 ============================================================ */
+.html--fullHeight {
+    height: 100%;
+}
+.body--fullHeight {
+    height: 100%;
+}
+.container {
+    position: relative;
+}
+.container--fullHeight {
+    height: 100%;
+}
+.container--landingPage {
+    background-color: #4f3e33;
+    
+    background-image: url("img/texture_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 
-
+}
 /* ============================================================
   Module CSS
 ============================================================ */
