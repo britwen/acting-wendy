@@ -60,19 +60,25 @@
     background-color: red;
 }
 .igIcon {
-    fill: #f3efeb;
     height: 1em;
     width: 1em;
+}
+.igIcon--light {
+    fill: #f3efeb;
 }
 .fbIcon {
-    fill: #f3efeb;
     height: 1em;
     width: 1em;
 }
-.twitterIcon {
+.fbIcon--light {
     fill: #f3efeb;
+}
+.twitterIcon {
     height: 1em;
     width: 1em;
+}
+.twitterIcon--light {
+    fill: #f3efeb;
 }
 /* ============================================================
   Module CSS
