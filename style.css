@@ -48,7 +48,12 @@
     top: 0;
     left: 0;
 }
-.container__backgroundTextureFacilitator__grid {
+.container__backgroundTextureFacilitator--verticalAlignContent {
+    display: flex;
+    align-content: center;
+
+}
+.container__backgroundTextureFacilitator__gridContainer {
     height: 87%;
     width: 87%;
     margin: auto;
