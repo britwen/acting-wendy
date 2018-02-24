@@ -158,10 +158,13 @@
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
     filter: drop-shadow(6px 13px 7px #4f3e33);
 
-    width: 670px;
+    width: 800px;
     margin-top: -10px;
     margin-right: 35%;
     float: right;
+}
+.body--noOverflow {
+    overflow: hidden;
 }
 .welcomeScreenOverlay__gridContainer__span {
     position: absolute;
