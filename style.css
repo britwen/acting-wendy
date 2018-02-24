@@ -117,9 +117,18 @@
 .nav--upperCase {
     text-transform: uppercase;
 }
-.nav--light {
+.nav__ul {
+    list-style-type: none;
+    padding: 0;
+}
+.a {
+    text-decoration: none;
+    color: #4f3e33;
+}
+.a--light {
     color: #f3efeb;
 }
+
 /* ============================================================
   Module CSS
 ============================================================ */
