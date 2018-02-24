@@ -155,9 +155,13 @@
     margin: auto;
 }
 .welcomeScreenOverlay__gridContainer__img {
-    height: 500px;
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
     filter: drop-shadow(6px 13px 7px #4f3e33);
+
+    width: 670px;
+    margin-top: -10px;
+    margin-right: 35%;
+    float: right;
 }
 .welcomeScreenOverlay__gridContainer__span {
     position: absolute;
