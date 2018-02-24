@@ -68,7 +68,7 @@
 }
 .igIcon--topRight {
     float: right;
-    margin-right: .5em;
+    margin-right: 1em;
 }
 .fbIcon {
     height: 1em;
@@ -79,7 +79,7 @@
 }
 .fbIcon--topRight {
     float: right;
-    margin-right: .5em;
+    margin-right: 1em;
 }
 .twitterIcon {
     height: 1em;
@@ -108,7 +108,17 @@
     line-height: 1.5;
 }
 .h2--light {
-    color: #ffedde;
+    color: #f3efeb;
+    opacity: .49;
+}
+.nav--marginLanding {
+    margin-left: 75%;
+}
+.nav--upperCase {
+    text-transform: uppercase;
+}
+.nav--light {
+    color: #f3efeb;
 }
 /* ============================================================
   Module CSS
