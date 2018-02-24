@@ -139,6 +139,13 @@
     margin-left: -14px;
     height: 160px;
 }
+.welcome {
+
+}
+.welcome__img {
+    -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
+  filter: drop-shadow(6px 13px 7px #4f3e33);
+}
 /* ============================================================
   Module CSS
 ============================================================ */
