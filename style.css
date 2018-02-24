@@ -30,7 +30,7 @@
 .container--fullHeight {
     height: 100%;
 }
-.container--landingPage {
+.container--dark {
     background-color: #4f3e33;
 }
 .container__backgroundTexture {
@@ -41,19 +41,18 @@
     height: 100%;
     opacity: .45;
 }
-.container__backgroundTextureFacilitator {
+.container__screenOverlay {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
-.container__backgroundTextureFacilitator--verticalAlignContent {
+.container__screenOverlay--verticalAlignContent {
     display: flex;
     align-content: center;
-
 }
-.container__backgroundTextureFacilitator__gridContainer {
+.container__screenOverlay__gridContainer {
     height: 87%;
     width: 87%;
     margin: auto;
@@ -139,12 +138,29 @@
     margin-left: -14px;
     height: 160px;
 }
-.welcome {
-
+.welcomeScreenOverlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.welcome__img {
+.welcomeScreenOverlay--verticalAlignContent {
+    display: flex;
+    align-content: center;
+}
+.welcomeScreenOverlay__gridContainer {
+    height: 87%;
+    width: 87%;
+    margin: auto;
+}
+.welcomeScreenOverlay__gridContainer__img {
+    height: 500px;
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
-  filter: drop-shadow(6px 13px 7px #4f3e33);
+    filter: drop-shadow(6px 13px 7px #4f3e33);
+}
+.welcomeScreenOverlay__gridContainer__span {
+    position: absolute;
 }
 /* ============================================================
   Module CSS
