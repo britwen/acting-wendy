@@ -40,6 +40,7 @@
     background-size: cover;
     height: 100%;
     opacity: .45;
+
 }
 .container__screenOverlay {
     height: 100%;
@@ -56,6 +57,7 @@
     height: 87%;
     width: 87%;
     margin: auto;
+
     background-color: red;
 }
 .igIcon {
@@ -96,7 +98,7 @@
 }
 .h2--marginLanding {
     display: inline-block;
-    margin-top: 120px;
+    margin-top: 7%;
     margin-left: 66%;
     margin-right: 6%;
 }
@@ -109,6 +111,10 @@
 .h2--lightAndTransparent {
     color: #f3efeb;
     opacity: .49;
+}
+.navWrapper {
+    position: relative;
+    background: pink;
 }
 .nav--marginLanding {
     margin-top: 12.5%;
