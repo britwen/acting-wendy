@@ -159,11 +159,6 @@
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
     filter: drop-shadow(6px 13px 7px #4f3e33);
 
-    /*width: 670px;
-    margin-top: -10px;
-    margin-right: 35%;
-    float: right;*/
-
     width: 70vh;
     position: absolute;
     bottom: 0;
