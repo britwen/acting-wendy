@@ -135,9 +135,9 @@
 .nav__markerLanding {
     fill: #6dc25f;
     position: absolute;
-    margin-top: 16px;
-    margin-left: -14px;
-    height: 160px;
+    margin-top: 0.85vw;
+    margin-left: -.9vw;
+    height: 8.3vw;
 }
 .welcomeScreenOverlay {
     height: 100%;
