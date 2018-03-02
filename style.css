@@ -179,12 +179,13 @@
     margin-left: 20px; 
 }
 
-footer {
+.footerLanding {
     position: absolute;
-    background-color: pink;
     bottom: 6.5%;
     right: 6.5%;
 
+    font-size: 11px;
+    color: #f3efeb;
 }
 /* ============================================================
   Module CSS
