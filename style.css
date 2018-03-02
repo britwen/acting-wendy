@@ -6,8 +6,8 @@
 .html {
     background-color: #fff;
     font-family: Roboto, Arial, sans-serif;
-    font-size: 20px; /*fall back size*/
-    font-size: 1.04vmax;
+    font-size: 20px;
+
 }
 .body {
     margin: 0;
@@ -60,8 +60,8 @@
     margin: auto;
 }
 .igIcon {
-    height: 1.28vmax;
-    width: 1.28vmax;
+    height: .87em;
+    width: .87em;
 }
 .igIcon--light {
     fill: #f3efeb;
@@ -71,8 +71,8 @@
     margin-right: 1em;
 }
 .fbIcon {
-    height: 1.28vmax;
-    width: 1.28vmax;
+    height: .87em;
+    width: .87em;
 }
 .fbIcon--light {
     fill: #f3efeb;
@@ -82,8 +82,8 @@
     margin-right: 1em;
 }
 .twitterIcon {
-    height: 1.28vmax;
-    width: 1.28vmax;
+    height: .87em;
+    width: .87em;
 }
 .twitterIcon--light {
     fill: #f3efeb;
@@ -92,7 +92,7 @@
     float: right;
 }
 .h2 {
-    font-size: 2vmax;
+    font-size: 1.8em;
     font-weight: 400;
 }
 .h2--marginLanding {
@@ -171,7 +171,7 @@
     position: absolute;
     top: 55%;
     font-family: 'Dancing Script', serif;
-    font-size: 4.67vmax;
+    font-size: 4.2em;
     letter-spacing: .30em;
     z-index: 1000;
     color: #fff;
@@ -183,7 +183,7 @@
     bottom: 6.5%;
     right: 6.5%;
 
-    font-size: 0.61vmax;
+    font-size: .55em;
     color: #f3efeb;
 }
 /* ============================================================
