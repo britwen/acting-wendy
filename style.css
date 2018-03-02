@@ -57,8 +57,6 @@
     height: 87%;
     width: 87%;
     margin: auto;
-
-    background-color: red;
 }
 .igIcon {
     height: 1em;
@@ -93,7 +91,7 @@
     float: right;
 }
 .h2 {
-    font-size: 36px;
+    font-size: 1.93vw;
     font-weight: 400;
 }
 .h2--marginLanding {
