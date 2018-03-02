@@ -7,7 +7,7 @@
     background-color: #fff;
     font-family: Roboto, Arial, sans-serif;
     font-size: 20px; /*fall back size*/
-    font-size: 1.04vw;
+    font-size: 1.04vmax;
 }
 .body {
     margin: 0;
@@ -60,8 +60,8 @@
     margin: auto;
 }
 .igIcon {
-    height: 1.28vw;
-    width: 1.28vw;
+    height: 1.28vmax;
+    width: 1.28vmax;
 }
 .igIcon--light {
     fill: #f3efeb;
@@ -71,8 +71,8 @@
     margin-right: 1em;
 }
 .fbIcon {
-    height: 1.28vw;
-    width: 1.28vw;
+    height: 1.28vmax;
+    width: 1.28vmax;
 }
 .fbIcon--light {
     fill: #f3efeb;
@@ -82,8 +82,8 @@
     margin-right: 1em;
 }
 .twitterIcon {
-    height: 1.28vw;
-    width: 1.28vw;
+    height: 1.28vmax;
+    width: 1.28vmax;
 }
 .twitterIcon--light {
     fill: #f3efeb;
@@ -92,7 +92,7 @@
     float: right;
 }
 .h2 {
-    font-size: 2vw;
+    font-size: 2vmax;
     font-weight: 400;
 }
 .h2--marginLanding {
@@ -135,9 +135,9 @@
 .nav__markerLanding {
     fill: #6dc25f;
     position: absolute;
-    margin-top: 0.85vw;
-    margin-left: -.9vw;
-    height: 8.3vw;
+    margin-top: 0.85vmax;
+    margin-left: -.9vmax;
+    height: 8.3vmax;
 }
 .welcomeScreenOverlay {
     height: 100%;
@@ -176,7 +176,7 @@
     position: absolute;
     top: 55%;
     font-family: 'Dancing Script', serif;
-    font-size: 4.67vw;
+    font-size: 4.67vmax;
     letter-spacing: .30em;
     z-index: 1000;
     color: #fff;
@@ -188,7 +188,7 @@
     bottom: 6.5%;
     right: 6.5%;
 
-    font-size: 0.61vw;
+    font-size: 0.61vmax;
     color: #f3efeb;
 }
 /* ============================================================
