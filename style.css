@@ -112,10 +112,6 @@
     color: #f3efeb;
     opacity: .49;
 }
-.navWrapper {
-    position: relative;
-    background: pink;
-}
 .nav--marginLanding {
     margin-top: 12.5%;
     margin-left: 75%;
@@ -181,6 +177,14 @@
     z-index: 1000;
     color: #fff;
     margin-left: 20px; 
+}
+
+footer {
+    position: absolute;
+    background-color: pink;
+    bottom: 6.5%;
+    right: 6.5%;
+
 }
 /* ============================================================
   Module CSS
