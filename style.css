@@ -111,6 +111,9 @@
     color: #f3efeb;
     opacity: .49;
 }
+.nav {
+    position: relative; 
+}
 .nav--marginLanding {
     margin-top: 12.5%;
     margin-left: 75%;
@@ -122,6 +125,16 @@
     list-style-type: none;
     padding: 0;
 }
+.nav__markerLanding {
+    height: 82%;
+    position: absolute;
+    border-left: #6dc25f solid .25em;
+    top: 9%;
+    margin-left: -.7em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 .a {
     text-decoration: none;
     color: #4f3e33;
@@ -131,13 +144,6 @@
 }
 .a--lineHeightLanding {
     line-height: 2.4em;
-}
-.nav__markerLanding {
-    fill: #6dc25f;
-    position: absolute;
-    margin-top: 0.85vmax;
-    margin-left: -.9vmax;
-    height: 8.3vmax;
 }
 .welcomeScreenOverlay {
     height: 100%;
@@ -199,3 +205,4 @@
 /* ============================================================
   Theme CSS
 ============================================================ */
+
