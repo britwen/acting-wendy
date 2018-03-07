@@ -157,6 +157,9 @@
     color: #fff;
     margin-left: 20px; 
 }
+.nameLanding--lastNextLine {
+        display: none;
+}
 .imgLanding {
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
     filter: drop-shadow(6px 13px 7px #4f3e33);
@@ -193,6 +196,15 @@
 @media only screen and (max-width: 1075px), (max-height: 755px) {
     .html--landingMediaQuery {
         font-size: 14px;
+    }
+}
+@media only screen and (max-width: 904px) {
+    .nameLanding--hide {
+        display: none;
+    }
+    .nameLanding--lastNextLine {
+        display: inline;
+        top: 66%;
     }
 }
 @media only screen and (max-width: 750px), (max-height: 720px) {
