@@ -277,6 +277,18 @@
     .nameLanding--dropShadow {
         text-shadow: 6px 13px 7px rgba(79, 62, 51, 0.16);
     }
+    .h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .h2--marginLanding {
+        margin-top: 219px;
+        margin-left: 0px;
+    }
+    .h2--lightAndTransparent {
+        color: #f3efeb;
+        opacity: 1;
+    }
 }
 
 
