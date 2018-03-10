@@ -262,6 +262,23 @@
     .navBurger__burgerBar--noTopMargin {
         margin-top: 0;
     }
+    .nameLanding {
+    position: absolute;
+    top: 100px;
+    font-family: 'Dancing Script', serif;
+    font-size: 48px;
+    letter-spacing: .30em;
+    z-index: 1000;
+    color: #fff;
+    margin-left: 20px; 
+    }
+    .nameLanding--lastNextLine {
+        display: inline;
+        top: 165px;
+    }
+    .nameLanding--dropShadow {
+        text-shadow: 6px 13px 7px rgba(79, 62, 51, 0.16);
+    }
 }
 
 
