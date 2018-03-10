@@ -289,6 +289,45 @@
         color: #f3efeb;
         opacity: 1;
     }
+    .footerLanding {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 103px;
+        width: 100%;
+        font-size: 11px;
+        color: #eaa673;
+
+        text-align: center;
+
+        background-color: blue;
+    }
+    .footerLanding__copyright {
+        display: block;
+        margin-top: 22px;
+    }
+    .igIcon {
+        height: 23px;
+        width: 23px;
+    }
+    .igIcon--orange {
+        fill: #eaa673;
+    }
+    .fbIcon {
+        height: 23px;
+        width: 23px;
+        margin: 24px 18px 0px 18px;
+    }
+    .fbIcon--orange {
+        fill: #eaa673;
+    }
+    .twitterIcon {
+        height: 23px;
+        width: 23px;
+    }
+    .twitterIcon--orange {
+        fill: #eaa673;
+    }
 }
 
 
