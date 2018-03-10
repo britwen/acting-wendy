@@ -263,14 +263,13 @@
         margin-top: 0;
     }
     .nameLanding {
-    position: absolute;
-    top: 100px;
-    font-family: 'Dancing Script', serif;
-    font-size: 48px;
-    letter-spacing: .30em;
-    z-index: 1000;
-    color: #fff;
-    margin-left: 20px; 
+        position: absolute;
+        top: 100px;
+        font-family: 'Dancing Script', serif;
+        font-size: 48px;
+        letter-spacing: .30em;
+        z-index: 1000;
+        color: #fff; 
     }
     .nameLanding--lastNextLine {
         display: inline;
