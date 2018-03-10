@@ -214,7 +214,30 @@
 }
 /*Mobile design*/
 @media only screen and (max-width: 570px), (max-height: 585px) {
-    
+    .twitterIcon--hide {
+        display: none;
+    }
+    .fbIcon--hide {
+        display: none;
+    }
+    .igIcon--hide {
+        display: none;
+    }
+    .h2--hide {
+        display: none;
+    }
+    .nav--hide {
+        display: none;
+    }
+    .imgLanding {
+        display: none;
+    }
+    .container__backgroundTexture {
+        display: none;
+    }
+    .container--orange {
+    background-color: #eaa673;
+}
 }
 
 
