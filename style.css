@@ -90,6 +90,15 @@
 .twitterIcon--topRight {
     float: right;
 }
+.igIconMobile--hide {
+    display: none;
+}
+.fbIconMobile--hide {
+    display: none;
+}
+.twitterIconMobile--hide {
+    display: none;
+}
 .h2 {
     font-size: 1.8em;
     font-weight: 400;
@@ -303,6 +312,7 @@
         margin-top: 22px;
     }
     .igIconMobile {
+        display: inline;
         height: 23px;
         width: 23px;
     }
@@ -310,6 +320,7 @@
         fill: #eaa673;
     }
     .fbIconMobile {
+        display: inline;
         height: 23px;
         width: 23px;
         margin: 24px 18px 0px 18px;
@@ -318,6 +329,7 @@
         fill: #eaa673;
     }
     .twitterIconMobile {
+        display: inline;
         height: 23px;
         width: 23px;
     }
