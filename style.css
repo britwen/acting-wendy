@@ -212,10 +212,10 @@
         margin-top: 5%;
     }
 }
-@media only screen and (max-width: 750px), (max-height: 720px) {
-    /*...new design for tablet and cell here...*/
+/*Mobile design*/
+@media only screen and (max-width: 570px), (max-height: 585px) {
+    
 }
-
 
 
 
