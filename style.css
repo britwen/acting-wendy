@@ -57,6 +57,8 @@
     height: 87%;
     width: 87%;
     margin: auto;
+
+    background-color: red;
 }
 .igIcon {
     height: .87em;
@@ -238,8 +240,32 @@
     .container--orange {
     background-color: #eaa673;
 }
-}
 
+    .header--mobileLanding {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 56px;
+        width: 100%;
+        background-color: #4f3e33;
+    }
+    .navBurger {
+        height: 19px;
+        width: 23px;
+        float: right;
+        margin-top: 18.5px; 
+        margin-right: 16px;
+    }
+    .navBurger__burgerBar {
+        width: 23px;
+        height: 3px;
+        background-color: #6dc25f;
+        margin: 6px 0;
+    }
+    .navBurger__burgerBar--noTopMargin {
+        margin-top: 0;
+    }
+}
 
 
 
