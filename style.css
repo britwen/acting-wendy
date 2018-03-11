@@ -132,16 +132,22 @@
 .nav__ul {
     list-style-type: none;
     padding: 0;
+    width: 30%;
 }
 .nav__markerLanding {
     height: 82%;
     position: absolute;
-    border-left: #6dc25f solid .25em;
+    border-left: .25em solid #6dc25f;
     top: 9%;
     margin-left: -.7em;
     display: flex;
     align-content: center;
     align-items: center;
+}
+.nav__a:hover {
+    padding-bottom: 2px;
+    border-bottom: .25em solid #6dc25f;
+    transition: .1s;
 }
 .a {
     text-decoration: none;
