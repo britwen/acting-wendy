@@ -195,6 +195,11 @@
 /* ============================================================
   About Page
 ============================================================ */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .container {
     margin: 2em;
     background-color: #f3efeb;
@@ -212,6 +217,11 @@
 }
 .nav__a {
     padding-left: 2.1em;
+}
+.boxSocialMediaIcons {
+    float: left;
+    margin-bottom: 2em;
+    margin-left: 4em;
 }
 
 
