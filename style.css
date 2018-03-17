@@ -115,22 +115,22 @@
     color: #f3efeb;
     opacity: .49;
 }
-.nav {
+.navLanding {
     position: relative; 
 }
-.nav--marginLanding {
+.navLanding--marginLanding {
     margin-top: 12.5%;
     margin-left: 75%;
 }
-.nav--upperCase {
+.navLanding--upperCase {
     text-transform: uppercase;
 }
-.nav__ul {
+.navLanding__ul {
     list-style-type: none;
     padding: 0;
     width: 30%;
 }
-.nav__markerLanding {
+.navLanding__markerLanding {
     height: 82%;
     position: absolute;
     border-left: .25em solid #6dc25f;
@@ -140,7 +140,7 @@
     align-content: center;
     align-items: center;
 }
-.nav__a:hover {
+.navLanding__a:hover {
     padding-bottom: 2px;
     border-bottom: .25em solid #6dc25f;
     transition: .1s;
@@ -238,7 +238,7 @@
     }
 }
 @media only screen and (max-height: 720px) {
-    .nav--marginLanding {
+    .navLanding--marginLanding {
         margin-top: 5%;
     }
 }
@@ -253,7 +253,7 @@
     .igIcon--hide {
         display: none;
     }
-    .nav--hide {
+    .navLanding--hide {
         display: none;
     }
     .imgLanding {
