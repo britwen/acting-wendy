@@ -218,6 +218,10 @@
 .nav__a {
     padding-left: 2.1em;
 }
+.foter {
+    background-color: red;
+    height: 50px;
+}
 /*same color as bg-color, required to hide tiny underscore from a*/
 .footer__a {
     color: #f3efeb;
@@ -232,6 +236,12 @@
     width: 1em;
     fill: #4f3e33;
     padding-right: .5em;
+}
+.copyright {
+    font-size: .55em;
+    float: right;
+    margin-top: .9em;
+    margin-right: 7.27em;
 }
 
 
