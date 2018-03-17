@@ -1,14 +1,9 @@
-﻿var nav__markerLanding = $(".nav__markerLanding");
+﻿//nav marker show/hide-toggle
+var nav__markerLanding = $('.nav__markerLanding');
 
-$(".nav__a").hover(function () {
-    $(nav__markerLanding).hide();
+$('.nav__a').hover(function () {
+    $(nav__markerLanding).css('display', 'none');
 });
-
-//if ($(".nav__markerLanding").is(":hidden")) {
-
-//    alert('test');
-
-//}
 
 $('.nav__ul').mouseleave(function () {
     $(nav__markerLanding).show();
