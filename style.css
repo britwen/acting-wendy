@@ -205,6 +205,14 @@
     color: #eaa673;
     margin-left: 1.27em;
 }
+.nav {
+    float: right;
+    margin-top: 2em;
+    margin-right: 4em;
+}
+.nav__a {
+    padding-left: 2.1em;
+}
 
 
 /* ============================================================
