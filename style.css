@@ -218,10 +218,20 @@
 .nav__a {
     padding-left: 2.1em;
 }
+/*same color as bg-color, required to hide tiny underscore from a*/
+.footer__a {
+    color: #f3efeb;
+}
 .boxSocialMediaIcons {
     float: left;
     margin-bottom: 2em;
     margin-left: 4em;
+}
+.socialIcon {
+    height: 1em;
+    width: 1em;
+    fill: #4f3e33;
+    padding-right: .5em;
 }
 
 
@@ -375,7 +385,7 @@
     .twitterIconMobile--orange {
         fill: #eaa673;
     }
-    /*required to hide tiny underscore*/
+    /*same color as bg-color, required to hide tiny underscore from a*/
     .footerLanding__a {
         color: #f3efeb;
     }
