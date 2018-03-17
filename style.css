@@ -7,6 +7,7 @@
     background-color: #fff;
     font-family: Roboto, Arial, sans-serif;
     font-size: 20px;
+    color: #4f3e33;
 }
 .body {
     margin: 0;
@@ -25,7 +26,8 @@
     height: 100%;
 }
 .container {
-    
+    /*margin: 2em;
+    background-color: #f3efeb;*/
 }
 .container--fullHeight {
     height: 100%;
@@ -249,7 +251,7 @@
     }
     .container--orange {
     background-color: #eaa673;
-}
+    }
 
     .header--mobileLanding {
         position: absolute;
@@ -342,6 +344,7 @@
     .twitterIconMobile--orange {
         fill: #eaa673;
     }
+    /*required to hide tiny underscore*/
     .footerLanding__a {
         color: #f3efeb;
     }
@@ -362,4 +365,3 @@
 /* ============================================================
   Theme CSS
 ============================================================ */
-
