@@ -191,10 +191,13 @@
 /* ============================================================
   Site Template Classes
 ============================================================ */
-
-/* ============================================================
-  About Page
-============================================================ */
+.h1 {
+    font-size: 2.34em;
+    margin: .7em 0;
+}
+.p {
+    line-height: 1.5em;
+}
 .clearfix:after {
     content: "";
     display: table;
@@ -242,6 +245,31 @@
     float: right;
     margin-top: .9em;
     margin-right: 7.27em;
+}
+/* ============================================================
+  About Page
+============================================================ */
+.aboutBoxWrapper {
+    width: 51.6em;
+    margin: auto;
+    margin-top: 5em;
+
+    background-color: yellow;
+}
+.aboutBox {
+    float: left;
+    height: 24.35em;
+    width: 24.8em;
+    background-color: #fff;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    box-sizing: border-box;
+}
+.aboutBox--right {
+    float: right;
+}
+.aboutBox--shadow {
+    box-shadow: 0px 15px 15.75px 5.25px rgba(191, 183, 174, 0.38); 
 }
 
 
