@@ -219,11 +219,11 @@
     margin-right: 4em;
 }
 .nav__a {
-    padding-left: 2.1em;
+    margin-left: 2.1em;
 }
-.foter {
-    background-color: red;
-    height: 50px;
+.nav__active {
+    padding-bottom: 1px;
+    border-bottom: .15em solid #eaa673;
 }
 /*same color as bg-color, required to hide tiny underscore from a*/
 .footer__a {
