@@ -255,7 +255,7 @@
 }
 .socialIcon:hover {
     transition: .1s;
-    fill: #eaa673;
+    fill: rgba(79, 62, 51, .8);
 }
 .copyright {
     font-size: .55em;
