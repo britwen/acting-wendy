@@ -251,6 +251,11 @@
     width: 1em;
     fill: #4f3e33;
     padding-right: .5em;
+    transition: fill .1s;
+}
+.socialIcon:hover {
+    transition: .1s;
+    fill: #eaa673;
 }
 .copyright {
     font-size: .55em;
