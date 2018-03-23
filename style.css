@@ -216,20 +216,22 @@
 .nav {
     float: right;
     margin-top: 2em;
-    margin-right: 4em;
+    margin-right: 1.8em;
+    width: 23em;
+    line-height: 1.2em;
 }
-.nav__a {
-    margin-left: 2.1em;
+.nav__box {
+    float: left;
+    width: 25%;
+}
+.nav__box:hover > a {
+    font-size: 1.2em; 
+    transition: .2s;
+    color: #eaa673;
 }
 .nav--active {
     padding-bottom: 1px;
     border-bottom: .15em solid #eaa673;
-}
-.nav__a:hover {
-    font-size: 1.1em;
-    margin-left: 1.89em;
-    margin-right: 
-    transition: .1s;
 }
 /*same color as bg-color, required to hide tiny underscore from a*/
 .footer__a {
