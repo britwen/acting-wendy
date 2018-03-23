@@ -218,16 +218,20 @@
     margin-top: 2em;
     margin-right: 1.8em;
     width: 23em;
-    line-height: 1.2em;
+    line-height: 1.1em;
 }
 .nav__box {
     float: left;
     width: 25%;
 }
 .nav__box:hover > a {
-    font-size: 1.2em; 
+    font-size: 1.1em; 
     transition: .2s;
     color: #eaa673;
+}
+.nav__box > a {
+    font-size: 1em;
+    transition: font-size .2s;
 }
 .nav--active {
     padding-bottom: 1px;
