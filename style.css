@@ -301,6 +301,9 @@
     line-height: 2em;
     margin-bottom: 2em;
 }
+.aboutButton:hover {
+    background-color: rgba(234, 166 ,115, .8);
+}
 .aboutButton--text {
     color: #fff;
 }
