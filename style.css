@@ -226,12 +226,12 @@
 }
 .nav__box:hover > a {
     font-size: 1.1em; 
-    transition: .2s;
+    transition: .1s;
     color: #eaa673;
 }
 .nav__box > a {
     font-size: 1em;
-    transition: font-size .2s;
+    transition: font-size .1s;
 }
 .nav--active {
     padding-bottom: 1px;
