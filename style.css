@@ -221,9 +221,15 @@
 .nav__a {
     margin-left: 2.1em;
 }
-.nav__active {
+.nav--active {
     padding-bottom: 1px;
     border-bottom: .15em solid #eaa673;
+}
+.nav__a:hover {
+    font-size: 1.1em;
+    margin-left: 1.89em;
+    margin-right: 
+    transition: .1s;
 }
 /*same color as bg-color, required to hide tiny underscore from a*/
 .footer__a {
@@ -292,7 +298,6 @@
     height: 100%;
     width: 100%;
 }
-
 /* ============================================================
   Media Queries
 ============================================================ */
