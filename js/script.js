@@ -9,41 +9,124 @@ $('.navLanding__ul').mouseleave(function () {
     $(navLanding__markerLanding).show();
 })
 
+// FOLLOWING SECTION: IMG ANIMATION ON GALLERY PAGE
 
-
+// creates an array with the three image boxes 
 var imgBox = document.getElementsByClassName("imgBox");
-imgBox = imgBox[0];
-
-
+// creates five arrays with each three columns
 var col1 = document.getElementsByClassName("col1");
-col1 = col1[0];
 var col2 = document.getElementsByClassName("col2");
-col2 = col2[0];
 var col3 = document.getElementsByClassName("col3");
-col3 = col3[0];
 var col4 = document.getElementsByClassName("col4");
-col4 = col4[0];
 var col5 = document.getElementsByClassName("col5");
-col5 = col5[0];
 
+// START 1ST IMG-BOX
 
-col1.addEventListener("mouseenter", function () {
-    imgBox.style.background = "url('/img/wendy_about.jpg')";
-    imgBox.style.backgroundSize = "cover";
+// assigns the first image box to its var
+var imgBox1 = imgBox[0];
+// assigns the columns of the first image-box to its vars
+var imgBox1__col1 = col1[0];
+var imgBox1__col2 = col2[0];
+var imgBox1__col3 = col3[0];
+var imgBox1__col4 = col4[0];
+var imgBox1__col5 = col5[0];
+
+// if user hovers over first column of the first image box display img
+imgBox1__col1.addEventListener("mouseenter", function () {
+    imgBox1.style.background = "url('/img/wendy_about.jpg')";
+    imgBox1.style.backgroundSize = "cover";
 });
-col2.addEventListener("mouseenter", function () {
-    imgBox.style.background = "url('/img/wendy_landing.png')";
-    imgBox.style.backgroundSize = "cover";
+// if user hovers over second column of the first image box display img
+imgBox1__col2.addEventListener("mouseenter", function () {
+    imgBox1.style.background = "url('/img/wendy_landing.png')";
+    imgBox1.style.backgroundSize = "cover";
 });
-col3.addEventListener("mouseenter", function () {
-    imgBox.style.background = "url('/img/wendy_about.jpg')";
-    imgBox.style.backgroundSize = "cover";
+// if user hovers over 3rd column of the first image box display im
+imgBox1__col3.addEventListener("mouseenter", function () {
+    imgBox1.style.background = "url('/img/wendy_about.jpg')";
+    imgBox1.style.backgroundSize = "cover";
 });
-col4.addEventListener("mouseenter", function () {
-    imgBox.style.background = "url('/img/wendy_landing.png')";
-    imgBox.style.backgroundSize = "cover";
+// if user hovers over 4th column of the first image box display im
+imgBox1__col4.addEventListener("mouseenter", function () {
+    imgBox1.style.background = "url('/img/wendy_landing.png')";
+    imgBox1.style.backgroundSize = "cover";
 });
-col5.addEventListener("mouseenter", function () {
-    imgBox.style.background = "url('/img/wendy_about.jpg')";
-    imgBox.style.backgroundSize = "cover";
+// if user hovers over 5th column of the first image box display im
+imgBox1__col5.addEventListener("mouseenter", function () {
+    imgBox1.style.background = "url('/img/wendy_about.jpg')";
+    imgBox1.style.backgroundSize = "cover";
+});
+
+// START 2ND IMG-BOX
+
+// assigns the 2nd image box to its var
+var imgBox2 = imgBox[1];
+// assigns the columns of the 2nd image-box to its vars
+var imgBox2__col1 = col1[1];
+var imgBox2__col2 = col2[1];
+var imgBox2__col3 = col3[1];
+var imgBox2__col4 = col4[1];
+var imgBox2__col5 = col5[1];
+
+// if user hovers over first column of the 2nd image box display img
+imgBox2__col1.addEventListener("mouseenter", function () {
+    imgBox2.style.background = "url('/img/wendy_about.jpg')";
+    imgBox2.style.backgroundSize = "cover";
+});
+// if user hovers over second column of the 2nd image box display img
+imgBox2__col2.addEventListener("mouseenter", function () {
+    imgBox2.style.background = "url('/img/wendy_landing.png')";
+    imgBox2.style.backgroundSize = "cover";
+});
+// if user hovers over 3rd column of the 2nd image box display im
+imgBox2__col3.addEventListener("mouseenter", function () {
+    imgBox2.style.background = "url('/img/wendy_about.jpg')";
+    imgBox2.style.backgroundSize = "cover";
+});
+// if user hovers over 4th column of the 2nd image box display im
+imgBox2__col4.addEventListener("mouseenter", function () {
+    imgBox2.style.background = "url('/img/wendy_landing.png')";
+    imgBox2.style.backgroundSize = "cover";
+});
+// if user hovers over 5th column of the 2nd image box display im
+imgBox2__col5.addEventListener("mouseenter", function () {
+    imgBox2.style.background = "url('/img/wendy_about.jpg')";
+    imgBox2.style.backgroundSize = "cover";
+});
+
+// START 3RD IMG-BOX
+
+// assigns the 3rd image box to its var
+var imgBox3 = imgBox[2];
+// assigns the columns of the 3rd image-box to its vars
+var imgBox3__col1 = col1[2];
+var imgBox3__col2 = col2[2];
+var imgBox3__col3 = col3[2];
+var imgBox3__col4 = col4[2];
+var imgBox3__col5 = col5[2];
+
+// if user hovers over first column of the first image box display img
+imgBox3__col1.addEventListener("mouseenter", function () {
+    imgBox3.style.background = "url('/img/wendy_about.jpg')";
+    imgBox3.style.backgroundSize = "cover";
+});
+// if user hovers over second column of the first image box display img
+imgBox3__col2.addEventListener("mouseenter", function () {
+    imgBox3.style.background = "url('/img/wendy_landing.png')";
+    imgBox3.style.backgroundSize = "cover";
+});
+// if user hovers over 3rd column of the first image box display im
+imgBox3__col3.addEventListener("mouseenter", function () {
+    imgBox3.style.background = "url('/img/wendy_about.jpg')";
+    imgBox3.style.backgroundSize = "cover";
+});
+// if user hovers over 4th column of the first image box display im
+imgBox3__col4.addEventListener("mouseenter", function () {
+    imgBox3.style.background = "url('/img/wendy_landing.png')";
+    imgBox3.style.backgroundSize = "cover";
+});
+// if user hovers over 5th column of the first image box display im
+imgBox3__col5.addEventListener("mouseenter", function () {
+    imgBox3.style.background = "url('/img/wendy_about.jpg')";
+    imgBox3.style.backgroundSize = "cover";
 });
