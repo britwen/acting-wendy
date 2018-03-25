@@ -326,8 +326,6 @@
     width: 50em;
     display: flex;
     justify-content: space-between;
-
-    background-color: pink;
 }
 .imgBox {
     float: left;
@@ -346,7 +344,7 @@
   transition-delay: .2s;
 }
 .imgBox:hover .slider {
-  padding-top: 200px;
+  padding-top: 10.75em;
   transition: .4s;
   transition-delay: .2s;
 }
@@ -376,12 +374,12 @@
   width: 20%;
 }
 .slider {
-  height: 100px;
+  height: 4.25em;
   width: 300px;
   
-  padding-top: 300px;
+  padding-top: 15em;
   background-clip: content-box;
-  background-color: orange;
+  background-color: #eaa673;
 }
 .imgBox__span {
   position: absolute;
