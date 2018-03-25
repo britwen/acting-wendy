@@ -331,10 +331,63 @@
 }
 .imgBox {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 15em;
+    width: 15em;
+
+    overflow: hidden;
+    position: relative;
 
     background-color: purple;
+}
+
+.imgBox:hover .imgBox__span  {
+  bottom: 30px;
+  transition: .4s;
+  transition-delay: .2s;
+}
+.imgBox:hover .slider {
+  padding-top: 200px;
+  transition: .4s;
+  transition-delay: .2s;
+}
+.col1 {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.col2 {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.col3 {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.col4 {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.col5 {
+  float: left;
+  height: 100%;
+  width: 20%;
+}
+.slider {
+  height: 100px;
+  width: 300px;
+  
+  padding-top: 300px;
+  background-clip: content-box;
+  background-color: orange;
+}
+.imgBox__span {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
