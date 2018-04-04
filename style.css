@@ -339,7 +339,7 @@
 }
 
 .imgBox:hover .imgBox__span  {
-  bottom: 30px;
+  bottom: 20px;
   transition: .4s;
   transition-delay: .2s;
 }
