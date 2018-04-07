@@ -130,3 +130,16 @@ imgBox3__col5.addEventListener("mouseenter", function () {
     imgBox3.style.background = "url('/img/wendy_about.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
+
+
+
+//when user clicks on one of three imgBoxes on gallery page, the page transitions left to reveal larger image section
+$('.imgBox').click(function () {
+    $('.imgBelt').css('left', '-100%');
+    $('.largeImg-container').show(); /* this shows the largeImg-container ..which is longer than the imgBox container */
+});
+
+$('.largeImg-return').click(function () {
+    $('.imgBelt').css('left', '0%');
+    $('.largeImg-container').hide(800);
+});
