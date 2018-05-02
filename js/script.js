@@ -143,3 +143,10 @@ $('.largeImg-return').click(function () {
     $('.imgBelt').css('left', '0%');
     $('.largeImg-container').hide(800);
 });
+
+function test1() {
+    document.getElementById('testi').innerHTML = '<object type="test/html" data="index.html"></object';
+}
+function test2() {
+    document.getElementById('testi').innerHTML = '<object type="test/html" data="about.html"></object';
+}

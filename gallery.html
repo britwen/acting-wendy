@@ -22,10 +22,10 @@
         <header>
             <span class="name">Wendy Lerocque</span>
             <nav class="nav">
-                <div class="nav__box"><a class="a nav--active" href="">About</a></div>
-                <div class="nav__box"><a class="a" href="">Gallery</a></div>
-                <div class="nav__box"><a class="a" href="">Videos</a></div>
-                   <div class="nav__box"><a class="a" href="">Contact</a></div>
+                <div class="nav__box"><a class="a" href="about.html">About</a></div>
+                <div class="nav__box"><a class="a nav--active" href="gallery.html">Gallery</a></div>
+                <div class="nav__box"><a class="a" href="videos.html">Videos</a></div>
+                   <div class="nav__box"><a class="a" href="contact.html">Contact</a></div>
             </nav>            
         </header>
 
@@ -34,7 +34,7 @@
             <div class="imgBelt">
                 <div class="thumb-wrap">
                     <div class="imgBoxWrapper">
-                        <div class="imgBox">
+                        <div class="imgBox" onclick="test1()">
                             <div class="col1"></div>
                             <div class="col2"></div>
                             <div class="col3"></div>
@@ -44,7 +44,7 @@
                             <div class="slider"></div>
                             <span class="imgBox__span">TEST BLA BLA</span>
                         </div>
-                        <div class="imgBox">
+                        <div class="imgBox" onclick="test2()">
                             <div class="col1"></div>
                             <div class="col2"></div>
                             <div class="col3"></div>
@@ -75,7 +75,7 @@
                         </div>
                         <!--AJAX section-->
                         <h3 class="project-title">Theatrical</h3>
-                        <div class="project-load"></div>
+                        <div class="project-load" id="testi"></div>
                     </div>
                 </div>
 
