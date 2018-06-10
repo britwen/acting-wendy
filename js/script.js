@@ -145,8 +145,8 @@ $('.largeImg-return').click(function () {
 });
 
 function test1() {
-    document.getElementById('testi').innerHTML = '<object type="test/html" data="index.html"></object';
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="index.html" width="100%" height="900px"></object>';
 }
 function test2() {
-    document.getElementById('testi').innerHTML = '<object type="test/html" data="about.html"></object';
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="about.html" width="100%"></object>';
 }

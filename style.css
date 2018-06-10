@@ -131,10 +131,10 @@
     width: 30%;
 }
 .navLanding__markerLanding {
-    height: 82%;
+    height: 87%;
     position: absolute;
     border-left: .25em solid #6dc25f;
-    top: 9%;
+    top: 7%;
     margin-left: -.7em;
     display: flex;
     align-content: center;
@@ -404,8 +404,9 @@
   transform: translate(-50%, -50%);
 }
 
-
-
+/* ============================================================
+  Gallery Page2
+============================================================ */
 .largeImg-container {
     max-width: 600px;
     margin: 0px auto;
@@ -424,14 +425,10 @@
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
-	
 	position: absolute;
 	margin-left: -60px;
 	margin-top: -3px;
-	
 	opacity: 0.5;
-
-    background-color: green;
 }
 
 
