@@ -102,7 +102,7 @@
 .h2--marginLanding {
     display: inline-block;
     margin-top: 7%;
-    margin-left: 66%;
+    margin-left: 60%;
     margin-right: 6%;
 }
 .h2--clearBoth {
@@ -591,6 +591,10 @@ address {
     .html--landingMediaQuery {
         font-size: 16px;
     }
+    .h2--marginLanding {
+        margin-top: 11%;
+        margin-left: 57%;
+    }
 }
 @media only screen and (max-width: 1075px), (max-height: 755px) {
     .html--landingMediaQuery {
@@ -604,6 +608,9 @@ address {
     .nameLanding--lastNextLine {
         display: inline;
         top: 66%;
+    }
+    .h2--marginLanding {
+        margin-left: 40%;
     }
 }
 @media only screen and (max-height: 720px) {
