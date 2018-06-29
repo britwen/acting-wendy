@@ -1,4 +1,6 @@
-﻿//nav marker show/hide-toggle
+﻿document.addEventListener("DOMContentLoaded", function () {  // START FIRST DOM-LOADER
+
+//nav marker show/hide-toggle
 var navLanding__markerLanding = $('.navLanding__markerLanding');
 
 $('.navLanding__a').hover(function () {
@@ -143,10 +145,52 @@ $('.largeImg-return').click(function () {
     $('.imgBelt').css('left', '0%');
     $('.largeImg-container').hide(800);
 });
-
-function test1() {
+// three functions that switch out content for large gallery container
+function gallery1() {
     document.getElementById('testi').innerHTML = '<object type="text/html" data="index.html" width="100%" height="900px"></object>';
 }
-function test2() {
+function gallery2() {
     document.getElementById('testi').innerHTML = '<object type="text/html" data="about.html" width="100%"></object>';
 }
+function gallery3() {
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="contact.html" width="100%"></object>';
+}
+// gallery-functions are called by onclick-eventHandler which is attached to imgBox-element
+imgBox[0].onclick = gallery1;
+imgBox[1].onclick = gallery2;
+imgBox[2].onclick = gallery3;
+
+});  //END FIRST DOM-LOADER
+
+
+document.addEventListener("DOMContentLoaded", function() {   // START SECOND DOM-LOADER
+
+// START PLACEHOLDER TXT ON CONTACT-PAGE
+
+// functions to set input text for placeholder property
+function namePlaceholderTxt(e) {
+    placeholderBlur[0].placeholder = "Enter Your Name";
+    e.preventDefault();
+}
+function emailPlaceholderTxt(e) {
+    placeholderBlur[1].placeholder = "Enter Your Email";
+    e.preventDefault();
+}
+function subjectPlaceholderTxt(e) {
+    placeholderBlur[2].placeholder = "Enter Subject";
+    e.preventDefault();
+}
+function textareaPlaceholderTxt(e) {
+    placeholderBlur[3].placeholder = "Enter Message";
+    e.preventDefault();
+}
+var placeholderBlur = document.getElementsByClassName('placeholderBlur');
+// placeholderTxt-function is called by onblur-eventHandler which is attached to placeholderBlur-element
+placeholderBlur[0].onblur = namePlaceholderTxt;
+placeholderBlur[1].onblur = emailPlaceholderTxt;
+placeholderBlur[2].onblur = subjectPlaceholderTxt;
+placeholderBlur[3].onblur = textareaPlaceholderTxt;
+// END PLACEHOLDER TXT ON CONTACT-PAGE
+
+
+});  //END SECOND DOM-LOADER

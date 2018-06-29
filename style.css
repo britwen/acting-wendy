@@ -145,7 +145,7 @@
     border-bottom: .25em solid #6dc25f;
     transition: .1s;
 }
-.a {
+a, .a {
     text-decoration: none;
     color: #4f3e33;
 }
@@ -302,6 +302,7 @@
     margin: 0 auto;
     text-align: center;
     line-height: 2em;
+    border-radius: 5px;
 }
 .aboutButton:hover {
     background-color: rgba(234, 166 ,115, .8);
@@ -345,9 +346,9 @@
     float: left;
     height: 15em;
     width: 15em;
-
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 
     background-color: purple;
 
@@ -399,7 +400,7 @@
 }
 .imgBox__span {
   position: absolute;
-  bottom: -30px;
+  bottom: -35px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -430,9 +431,151 @@
 	margin-top: -3px;
 	opacity: 0.5;
 }
+/* ============================================================
+  Contact Page
+============================================================ */
+.contactBackdrop {
+    height: 1184px;
+    width: 1130px;
+    background-color: #eaa673;
+    margin: 95px auto 0px auto;
+    box-shadow: 0px 0px 28.32px 19.68px rgba(210, 184, 165, 0.33);
 
-
-
+    text-align: center;
+}
+.theatricContactWrapper {
+    margin: 0 auto;
+    height: 412px;
+    width: 879px;
+    text-align: left;
+    margin-top: 78px;
+    display: inline-block;
+}
+.contactFormTxtWrapper {
+    width: 325px;
+    /*margin-right: 25px;*/
+    float: left;
+}
+.contactFormWrapper {
+    width: 477px;
+    float: right;
+}
+.h1--contact {
+    margin: 0px 0px 26px 0px;
+}
+.nameEmailWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+form input[type="text"],
+form input[type="email"] {
+    height: 47px;
+    width: 222px;
+    font-size: 1em;
+    color: #4f3e33;
+    padding-left: 13px;
+    box-sizing: border-box;
+    border: none;
+}
+form input[type="subject"],
+form input[type="submit"] {
+    height: 47px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #4f3e33;
+    padding-left: 13px;
+    border: none;
+}
+form input[type="submit"] {
+    padding: 0;
+}
+form textarea {
+    height: 222px;
+    width: 477px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #4f3e33;
+    font-family: Roboto, Arial, sans-serif;
+    padding: 10px 0px 0px 13px;
+    border: none;
+}
+form ::placeholder { /* overwrites the previously defined input-txt-color that's visible on user input*/
+	color: #d1b097;
+}
+form input[type="submit"] {
+    color: #4f3e33;
+    height: 57px;
+    background-color: #6dc25f;
+    border: none;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #80c275;
+}
+.commercialsContactWrapper {
+    margin: 0 auto;
+    height: 412px;
+    width: 879px;
+    text-align: left;
+    margin-top: 21px;
+    display: inline-block;
+}
+address {
+    margin-top: 34px;
+    font-style: normal;
+}
+.linkWhite {
+    color: #f3efeb;
+    border-bottom: 1px solid #f3efeb;
+    display: block;
+    line-height: 22px;
+    width: 184px;
+    margin: 2px 0px;
+    font-weight: 600;
+}
+.linkWhiteEmail {
+    width: 280px;
+    font-weight: 500;
+}
+.contactSocialMedia {
+    margin: 80px auto 0px auto;
+    width: 213px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 17px 15px 0 15px;
+    border-top: 1px solid #eacdb8;
+}
+.contactSocialMedia svg {
+    fill: #fff;
+}
+.contactSocialMedia .ig {
+    height: 34px;
+    width: 34px;
+}
+.contactSocialMedia .fb {
+    height: 34px;
+    width: 34px;
+}
+.contactSocialMedia .twitter {
+    height: 34px;
+    width: 34px;
+}
+.contactFooter {
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 40px;
+}
+.contactFooter .copyright {
+    font-size: .55em;
+    float: none;
+    margin-top: 0px;
+    margin-right: 0px;
+}
 /* ============================================================
   Media Queries
 ============================================================ */
