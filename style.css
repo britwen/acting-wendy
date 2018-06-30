@@ -691,7 +691,6 @@ address {
     .mobileBlackBoxBg {
         height: 78px;
         width: 280px;
-        margin-top: 68%;
         margin-top: 95%;
         z-index: 999999;
         /*needed to center absolute div, works w previous rule*/
@@ -736,9 +735,6 @@ address {
         display: inline;
         top: 3px;
     }
-    /*.nameLanding--dropShadow {
-        text-shadow: 6px 13px 7px rgba(79, 62, 51, 0.16);
-    }*/
     .footerLanding {
         position: absolute;
         bottom: 0;
@@ -798,9 +794,49 @@ address {
         margin-top: 93%;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .imgLanding {
         left: -22%;
+    }
+}
+@media only screen and (max-height: 510px) {
+    .mobileBlackBoxBg {
+        margin-top: 52%;
+    }
+    .mobileBlackBoxBg--name {
+        height: 100px;
+        margin-top: 77%;
+    }
+    .nameLanding {
+        left: 25px;
+        font-size: 38px;
+    }
+}
+@media only screen and (max-height: 440px) {
+    .mobileBlackBoxBg {
+        margin-top: 41%;
+    }
+    .mobileBlackBoxBg--name {
+        height: 100px;
+        margin-top: 67%;
+    }
+    .nameLanding {
+        left: 25px;
+        font-size: 38px;
+    }
+}
+@media only screen and (max-height: 410px) {
+    .mobileBlackBoxBg {
+        display: none;
+    }
+    .mobileBlackBoxBg--name {
+        display: block;
+        height: 100px;
+        margin-top: 38%;
+    }
+    .nameLanding {
+        left: 25px;
+        font-size: 38px;
     }
 }
 /* ============================================================
