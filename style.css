@@ -610,7 +610,7 @@ address {
         top: 66%;
     }
     .h2--marginLanding {
-        margin-left: 40%;
+        margin-left: 50%;
     }
 }
 @media only screen and (max-height: 720px) {
@@ -619,7 +619,10 @@ address {
     }
 }
 /*Mobile design*/
-@media only screen and (max-width: 570px), (max-height: 585px) {
+@media only screen and (max-width: 570px), (max-height: 600px) {
+    .containerLanding__screenOverlay__gridContainer {
+        margin-top: 22px;
+    }
     .twitterIcon--hide {
         display: none;
     }
@@ -632,33 +635,32 @@ address {
     .navLanding--hide {
         display: none;
     }
-    .imgLanding {
+    /*.imgLanding {
         display: none;
-    }
-    .containerLanding__backgroundTexture {
+    }*/
+    /*.containerLanding__backgroundTexture {
         display: none;
-    }
-    .containerLanding--orange {
+    }*/
+    /*.containerLanding--orange {
     background-color: #eaa673;
-    }
-
-    .header--mobileLanding {
+    }*/
+    /*.header--mobileLanding {
         position: absolute;
         top: 0;
         left: 0;
         height: 56px;
         width: 100%;
         background-color: #4f3e33;
-    }
+    }*/
     .navBurger {
         height: 19px;
-        width: 23px;
+        width: 27px;
         float: right;
-        margin-top: 18.5px; 
-        margin-right: 16px;
+        margin-top: 10px; 
+        margin-right: 7px;
     }
     .navBurger__burgerBar {
-        width: 23px;
+        width: 27px;
         height: 3px;
         background-color: #6dc25f;
         margin: 6px 0;
@@ -666,24 +668,44 @@ address {
     .navBurger__burgerBar--noTopMargin {
         margin-top: 0;
     }
-    .nameLanding {
+    .imgLanding {
+        -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
+        filter: drop-shadow(6px 13px 7px #4f3e33);
+        width: 65vh;
         position: absolute;
-        top: 100px;
-        font-family: 'Dancing Script', serif;
-        font-size: 48px;
-        letter-spacing: .30em;
-        color: #fff; 
+        bottom: 80px;
     }
-    .nameLanding--lastNextLine {
-        display: inline;
-        top: 165px;
+    .imgOverlay--white {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        opacity: .15;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
-    .nameLanding--dropShadow {
-        text-shadow: 6px 13px 7px rgba(79, 62, 51, 0.16);
+    .centerWrapper {
+        position: absolute;
+        left: 50%;
+    }
+    .mobileBlackBoxBg {
+        height: 78px;
+        width: 280px;
+        margin-top: 68%;
+        margin-top: 95%;
+        z-index: 999999;
+        /*needed to center absolute div, works w previous rule*/
+        position: relative;
+        left: -50%;
+        background-color: rgba(0, 0, 0, 0.57);
     }
     .h2 {
-        font-size: 24px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 700;
+        position: absolute;
+        top: -213px;
+        left: 14px;
+        line-height: 1.6;
     }
     .h2--marginLanding {
         margin-top: 219px;
@@ -693,54 +715,94 @@ address {
         color: #f3efeb;
         opacity: 1;
     }
+    .mobileBlackBoxBg--name {
+        height: 130px;
+        width: 300px;
+        margin-top: 120%;
+    }
+    .nameLanding {
+        position: relative;
+        top: 6px;
+        left: 14px;
+        font-family: 'Dancing Script', serif;
+        font-size: 48px;
+        letter-spacing: .30em;
+        color: #fff; 
+    }
+    .nameLanding--hide {
+        display: none;
+    }
+    .nameLanding--lastNextLine {
+        display: inline;
+        top: 3px;
+    }
+    /*.nameLanding--dropShadow {
+        text-shadow: 6px 13px 7px rgba(79, 62, 51, 0.16);
+    }*/
     .footerLanding {
         position: absolute;
         bottom: 0;
         left: 0;
-        height: 103px;
+        height: 80px;
         width: 100%;
         font-size: 11px;
-        color: #eaa673;
+        color: #4f3e33;
         text-align: center;
         background-color: #f3efeb;
     }
+    /*needed to center absolute div, works w previous centerWrapper*/
+    .socialWrapper {
+        position: relative;
+        left: -50%;
+        top: 20px;
+    }
     .footerLanding__copyright {
         display: block;
-        margin-top: 22px;
+        margin-top: 16px;
     }
     .igIconMobile {
         display: inline;
-        height: 23px;
-        width: 23px;
+        height: 18px;
+        width: 18px;
     }
     .igIconMobile--orange {
-        fill: #eaa673;
+        fill: #4f3e33;
     }
     .fbIconMobile {
         display: inline;
-        height: 23px;
-        width: 23px;
+        height: 18px;
+        width: 18px;
         margin: 24px 18px 0px 18px;
     }
     .fbIconMobile--orange {
-        fill: #eaa673;
+        fill: #4f3e33;
     }
     .twitterIconMobile {
         display: inline;
-        height: 23px;
-        width: 23px;
+        height: 18px;
+        width: 18px;
     }
     .twitterIconMobile--orange {
-        fill: #eaa673;
+        fill: #4f3e33;
     }
     /*same color as bg-color, required to hide tiny underscore from a*/
-    .footerLanding__a {
+    /*.footerLanding__a {
         color: #f3efeb;
+    }*/
+}
+@media only screen and (max-height: 600px) {
+    .mobileBlackBoxBg {
+        margin-top: 68%;
+    }
+    .mobileBlackBoxBg--name {
+        margin-top: 93%;
     }
 }
-
-
-
+@media only screen and (max-width: 450px) {
+    .imgLanding {
+        left: -22%;
+    }
+}
 /* ============================================================
   Module CSS
 ============================================================ */
