@@ -794,7 +794,7 @@ address {
         margin-top: 93%;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .imgLanding {
         left: -22%;
     }
