@@ -174,11 +174,11 @@ a, .a {
 .imgLanding {
     -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
     filter: drop-shadow(6px 13px 7px #4f3e33);
-
     width: 70vh;
     position: absolute;
     bottom: 0;
     right: 40%;
+    pointer-events: none;
 }
 .footerLanding {
     position: absolute;
@@ -620,6 +620,22 @@ address {
 }
 /*Mobile design*/
 @media only screen and (max-width: 570px), (max-height: 600px) {
+    .mobileNav {
+        position: absolute;
+        left: 50%;
+        top: 360px;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        height: 550px;
+        z-index: 9999;
+
+        display: none;
+
+        background: red;
+    }
+    .mobileNav.is-active {
+        display: block;
+    }
     .containerLanding__screenOverlay__gridContainer {
         margin-top: 22px;
     }
@@ -658,6 +674,7 @@ address {
         float: right;
         margin-top: 10px; 
         margin-right: 7px;
+        cursor: pointer;
     }
     .navBurger__burgerBar {
         width: 27px;
@@ -668,6 +685,33 @@ address {
     .navBurger__burgerBar--noTopMargin {
         margin-top: 0;
     }
+    /* START animation section for nav-burger*/
+    .navBurger.is-active .navBurger__burgerBar:nth-child(2) {
+        opacity: 0;
+    }
+    .navBurger.is-active .navBurger__burgerBar:nth-child(1){
+        -webkit-transform: translateY(11px) rotate(45deg);
+        -ms-transform: translateY(11px) rotate(45deg);
+        -o-transform: translateY(11px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
+    }
+    .navBurger.is-active .navBurger__burgerBar:nth-child(3){
+        -webkit-transform: translateY(-11px) rotate(-45deg);
+        -ms-transform: translateY(-11px) rotate(-45deg);
+        -o-transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg);
+    }
+    .navBurger__burgerBar {
+        width: 27px;
+        height: 3px;
+        /*background-color: #ecf0f1;
+        display: block;
+        margin: 8px auto;*/
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    /* END animation section form nav-burger*/
     .imgLanding {
         -webkit-filter: drop-shadow(6px 13px 7px #4f3e33);
         filter: drop-shadow(6px 13px 7px #4f3e33);
@@ -683,16 +727,18 @@ address {
         position: absolute;
         top: 0;
         left: 0;
+        pointer-events: none;
     }
     .centerWrapper {
         position: absolute;
         left: 50%;
+        pointer-events: none;
     }
     .mobileBlackBoxBg {
         height: 78px;
         width: 280px;
         margin-top: 95%;
-        z-index: 999999;
+        z-index: 999;
         /*needed to center absolute div, works w previous rule*/
         position: relative;
         left: -50%;

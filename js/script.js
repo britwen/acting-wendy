@@ -194,3 +194,14 @@ placeholderBlur[3].onblur = textareaPlaceholderTxt;
 
 
 });  //END SECOND DOM-LOADER
+
+//START THIRD DOM-LOADER
+$(document).ready(function () {
+    // burger-nav click-animation for mobile 
+    $(".navBurger").click(function () {
+        $(this).toggleClass("is-active");
+        $(".mobileNav").toggleClass("is-active");
+        //$(".mobileNav").fadeToggle();
+    });
+});
+//END THIRD DOM-LOADER
