@@ -9,11 +9,11 @@ $('.navLanding__a').hover(function () {
 
 $('.navLanding__ul').mouseleave(function () {
     $(navLanding__markerLanding).show();
-})
+});
 
 // FOLLOWING SECTION: IMG ANIMATION ON GALLERY PAGE
 
-// creates an array with the three image boxes 
+// creates an array with the three image boxes
 var imgBox = document.getElementsByClassName("imgBox");
 // creates five arrays with each three columns
 var col1 = document.getElementsByClassName("col1");
@@ -198,10 +198,9 @@ placeholderBlur[3].onblur = textareaPlaceholderTxt;
 //START THIRD DOM-LOADER
 $(document).ready(function () {
     // burger-nav click-animation for mobile 
-    $(".navBurger").click(function () {
+    $(".navBurger").click(function() {
         $(this).toggleClass("is-active");
         $(".mobileNav").toggleClass("is-active");
-        //$(".mobileNav").fadeToggle();
     });
 });
 //END THIRD DOM-LOADER

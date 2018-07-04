@@ -629,12 +629,16 @@ address {
         height: 550px;
         z-index: 9999;
 
-        display: none;
+        /*display: none;*/
+        opacity: 0;
+        /*transition: all .3s ease-in-out;*/
 
         background: red;
     }
     .mobileNav.is-active {
-        display: block;
+        /*display: block;*/
+        opacity: 1;
+        transition: all .3s ease-in-out;
     }
     .containerLanding__screenOverlay__gridContainer {
         margin-top: 22px;
