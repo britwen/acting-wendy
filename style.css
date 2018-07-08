@@ -623,22 +623,28 @@ address {
     .mobileNav {
         position: absolute;
         left: 50%;
-        top: 360px;
+        top: 250px;
         transform: translate(-50%, -50%);
         width: 85%;
-        height: 550px;
+        height: 357px;
         z-index: 9999;
-
-        /*display: none;*/
         opacity: 0;
-        /*transition: all .3s ease-in-out;*/
-
-        background: red;
+        background: #4f3e33;
+        text-align: center;
     }
     .mobileNav.is-active {
-        /*display: block;*/
-        opacity: 1;
+        opacity: .95;
         transition: all .3s ease-in-out;
+    }
+    .mobileNav a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 18px;
+        display: block;
+        margin-top: 40px;
+    }
+    .mobileNav a:hover {
+        color: #6dc25f;
     }
     .containerLanding__screenOverlay__gridContainer {
         margin-top: 22px;
@@ -747,6 +753,9 @@ address {
         position: relative;
         left: -50%;
         background-color: rgba(0, 0, 0, 0.57);
+    }
+    .mobileBlackBoxBg.is-active {
+        opacity: .3;
     }
     .h2 {
         font-size: 20px;

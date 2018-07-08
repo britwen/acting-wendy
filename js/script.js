@@ -201,6 +201,7 @@ $(document).ready(function () {
     $(".navBurger").click(function() {
         $(this).toggleClass("is-active");
         $(".mobileNav").toggleClass("is-active");
+        $(".mobileBlackBoxBg").toggleClass("is-active");
     });
 });
 //END THIRD DOM-LOADER
