@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html class="html" lang="en">
+<html class="html html--galleryMediaQuery" lang="en">
 <head>
     <title>Wendy Lerocque</title>
 
@@ -19,7 +19,7 @@
 </head>
 <body class="body">
     <div class="container clearfix">
-        <header>
+        <header class="header--gallery">
             <span class="name">Wendy Lerocque</span>
             <nav class="nav">
                 <div class="nav__box"><a class="a" href="about.html">About</a></div>
@@ -27,7 +27,19 @@
                 <div class="nav__box"><a class="a" href="videos.html">Videos</a></div>
                 <div class="nav__box"><a class="a" href="resume.html">Resume</a></div>
                 <div class="nav__box"><a class="a" href="contact.html">Contact</a></div>
-            </nav>            
+            </nav>
+            <div class="navBurger">
+                <div class="navBurger__burgerBar navBurger__burgerBar--noTopMargin"></div>
+                <div class="navBurger__burgerBar"></div>
+                <div class="navBurger__burgerBar"></div>
+            </div>
+            <div class="mobileNav">
+                <a href="about.html">about</a>
+                <a href="gallery.html" id="mobileNavSelected">gallery</a>
+                <a href="">videos</a>
+                <a href="">resume</a>
+                <a href="contact.html">contact</a>
+            </div>             
         </header>
 
         <section class="wrapper clearfix">

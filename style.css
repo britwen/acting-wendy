@@ -582,6 +582,7 @@ address {
 /* ============================================================
   Media Queries
 ============================================================ */
+/*Landing*/
 @media only screen and (max-width: 1340px), (max-height: 830px) {
     .html--landingMediaQuery {
         font-size: 18px;
@@ -621,7 +622,7 @@ address {
         margin-top: 5%;
     }
 }
-/*Mobile design*/
+/*Mobile design -- Landing*/
 @media only screen and (max-width: 570px), (max-height: 600px) {
     .mobileNav {
         position: absolute;
@@ -648,6 +649,9 @@ address {
         margin-top: 40px;
     }
     .mobileNav a:hover {
+        color: #6dc25f;
+    }
+    #mobileNavSelected {
         color: #6dc25f;
     }
     .containerLanding__screenOverlay__gridContainer {
@@ -686,9 +690,13 @@ address {
         height: 19px;
         width: 27px;
         float: right;
+        margin-top: 25px; 
+        margin-right: 17px;
+        cursor: pointer;
+    }
+    .navBurger--index {
         margin-top: 10px; 
         margin-right: 7px;
-        cursor: pointer;
     }
     .navBurger__burgerBar {
         width: 27px;
@@ -902,6 +910,58 @@ address {
         font-size: 38px;
     }
 }
+/*Media Queries -- Header & Navigation*/
+@media only screen and (max-width: 1150px) {
+    .html--aboutMediaQuery,
+    .html--galleryMediaQuery,
+    .html--contactMediaQuery {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .header--about,
+    .header--gallery,
+    .header--contact {
+        text-align: center;
+    }
+    .nav {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name {
+        margin: 0 auto;
+        margin-top: .3em;
+        display: inline-block;
+    }
+    .container {
+        margin: 1em;
+    }
+}
+/*Mobile design -- Header*/
+@media only screen and (max-width: 570px) {
+    .header--about,
+    .header--gallery,
+    .header--contact {
+        text-align: left;
+    }
+    .container {
+        margin: .5em;
+    }
+    .name {
+        font-size: 36px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    .nav {
+        display: none;
+    }
+
+
+
+}
+
+
 /* ============================================================
   Module CSS
 ============================================================ */
