@@ -237,6 +237,9 @@ a, .a {
     padding-bottom: 1px;
     border-bottom: .15em solid #eaa673;
 }
+.mobileNav {
+    display: none;
+}
 .footer {
     margin-top: 5em;
 }
@@ -631,6 +634,7 @@ address {
         opacity: 0;
         background: #4f3e33;
         text-align: center;
+        display: block;
     }
     .mobileNav.is-active {
         opacity: .95;
