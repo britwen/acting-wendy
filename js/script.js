@@ -218,6 +218,7 @@ if (!(window.location.href.includes("index"))) {
         $(".navBurger").css("display", "block");
         $(".mobileNav").css("display", "block");
     }
+    // eventListener for when user resizes window
     window.addEventListener('resize', function (event) {
         if (window.innerWidth > 570) {
             $(".navBurger").css("display", "none");
@@ -226,6 +227,23 @@ if (!(window.location.href.includes("index"))) {
         else {
             $(".navBurger").css("display", "block");
             $(".mobileNav").css("display", "block");
+        }
+    });
+}
+// if on about-page, and window width < 800px then make aboutBox-div same height as imgAbout-image
+if (window.location.href.includes("about")) {
+    if ($(window).width() < 900) {
+        $(".aboutBox").height($(".imgAbout").height());
+    }
+    else {
+        $(".aboutBox").height("24.35em");
+    }
+    window.addEventListener('resize', function (event) {
+        if ($(window).width() < 900) {
+            $(".aboutBox").height($(".imgAbout").height());
+        }
+        else {
+            $(".aboutBox").height("24.35em");
         }
     });
 }
