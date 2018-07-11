@@ -205,3 +205,27 @@ $(document).ready(function () {
     });
 });
 //END THIRD DOM-LOADER
+
+
+// media-query from index-page has burger-nav show at page-height < 600px 
+// following code prevents this behaviour on all pages except index.html
+if (!(window.location.href.includes("index"))) {
+    if (window.innerWidth > 570) {
+        $(".navBurger").css("display", "none");
+        $(".mobileNav").css("display", "none");
+    }
+    else {
+        $(".navBurger").css("display", "block");
+        $(".mobileNav").css("display", "block");
+    }
+    window.addEventListener('resize', function (event) {
+        if (window.innerWidth > 570) {
+            $(".navBurger").css("display", "none");
+            $(".mobileNav").css("display", "none");
+        }
+        else {
+            $(".navBurger").css("display", "block");
+            $(".mobileNav").css("display", "block");
+        }
+    });
+}

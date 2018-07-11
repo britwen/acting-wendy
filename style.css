@@ -965,6 +965,14 @@ address {
     .nav {
         display: none;
     }
+    .navBurger {
+        height: 19px;
+        width: 27px;
+        float: right;
+        margin-top: 25px; 
+        margin-right: 17px;
+        cursor: pointer;
+    }
 }
 /*Media Queries -- About Page*/
 @media only screen and (max-width: 1150px) {
