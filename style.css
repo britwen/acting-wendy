@@ -967,11 +967,6 @@ address {
     }
 }
 /*Media Queries -- About Page*/
-@media only screen and (max-width: 1030px) {
-    .aboutBoxWrapper {
-        margin-top: 3em;
-    }
-}
 @media only screen and (max-width: 1150px) {
     .aboutBoxWrapper {
         max-width: 46em;
@@ -979,7 +974,16 @@ address {
         margin: 2em auto;*/
     }
 }
-
+@media only screen and (max-width: 1030px) {
+    .aboutBoxWrapper {
+        margin-top: 3em;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .aboutBoxWrapper {
+        font-size:
+    }
+}
 
 
 /* ============================================================
