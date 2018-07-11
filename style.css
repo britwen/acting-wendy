@@ -219,6 +219,7 @@ a, .a {
     margin-right: 1.8em;
     width: 26em;
     line-height: 1.1em;
+    display: inline-block;
 }
 .nav__box {
     float: left;
@@ -273,7 +274,8 @@ a, .a {
   About Page
 ============================================================ */
 .aboutBoxWrapper {
-    width: 51.6em;
+    max-width: 51.6em;
+    max-width: 48em;
     margin: 5em auto;
 }
 .aboutBox {
@@ -297,6 +299,7 @@ a, .a {
     height: 24.25em;
     width: 19.4em;
     box-shadow: 0px 15px 15.75px 5.25px rgba(191, 183, 174, 0.38);
+    float: right;
 }
 .aboutButton {
     height: 2em;
@@ -934,8 +937,13 @@ address {
         margin-top: .3em;
         display: inline-block;
     }
+}
+@media only screen and (max-width: 1030px) {
     .container {
         margin: 1em;
+    }
+    .name {
+        display: block;
     }
 }
 /*Mobile design -- Header*/
@@ -952,14 +960,26 @@ address {
         font-size: 36px;
         font-weight: 600;
         margin-left: 20px;
+        display: inline-block;
     }
     .nav {
         display: none;
     }
-
-
-
 }
+/*Media Queries -- About Page*/
+@media only screen and (max-width: 1030px) {
+    .aboutBoxWrapper {
+        margin-top: 3em;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .aboutBoxWrapper {
+        max-width: 46em;
+        /*margin: 5em auto;
+        margin: 2em auto;*/
+    }
+}
+
 
 
 /* ============================================================
