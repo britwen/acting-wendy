@@ -253,3 +253,17 @@ if (window.location.href.includes("about")) {
 var aboutBoxWrapper = document.getElementsByClassName('aboutBoxWrapper')[0];
 var aboutImgWrapper = document.getElementsByClassName('aboutImgWrapper')[0];
 aboutBoxWrapper.prepend(aboutImgWrapper);
+
+// if on about-page, and window width < 720px then apply auto-height to aboutBox-div
+if (window.location.href.includes("about")) {
+    if ($(window).width() < 720) {
+        $(".aboutBox").height("auto");
+    }
+    window.addEventListener('resize', function (event) {
+        if ($(window).width() < 720) {
+            $(".aboutBox").height("auto");
+        }
+    });
+}
+
+

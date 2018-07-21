@@ -639,10 +639,12 @@ address {
         background: #4f3e33;
         text-align: center;
         display: block;
+        pointer-events: none;
     }
     .mobileNav.is-active {
         opacity: .95;
         transition: all .3s ease-in-out;
+        pointer-events: auto;
     }
     .mobileNav a {
         color: #fff;
@@ -1008,13 +1010,44 @@ address {
     }
 }
 @media only screen and (max-width: 720px) {
-    .aboutImgWrapper img {
+    .aboutBoxWrapper {
+        text-align: center;
+        font-size: 20px;
+    }
+    .aboutBoxWrapper div {
+        font-size: inherit;
+        margin: 0px;
+    }
+    .imgAbout {
         float: none;
+        box-shadow: none;
+        margin-top: -25px;
     }
     .aboutBox {
         float: none;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: -5px;
+        box-shadow: none;
+        max-width: none;
+        max-width: 388px;
+    }
+    .aboutBox h1 {
+        margin: .7em 0;
+        display: inline-block;
+    }
+    .aboutBox p {
+        line-height: 1.7em;
+        margin-top: 0px;
+    }
+    .aboutBox p:nth-of-type(2) {
+        padding-bottom: 25px;
     }
 }
+
+
+
+
 
 /* ============================================================
   Module CSS
