@@ -247,3 +247,9 @@ if (window.location.href.includes("about")) {
         }
     });
 }
+
+// DOM manipulation on about page. It makes the img-div the first child of it's parent, instead of the txt-div.
+// need for breakpoint < 720px, so img appears before txt.
+var aboutBoxWrapper = document.getElementsByClassName('aboutBoxWrapper')[0];
+var aboutImgWrapper = document.getElementsByClassName('aboutImgWrapper')[0];
+aboutBoxWrapper.prepend(aboutImgWrapper);

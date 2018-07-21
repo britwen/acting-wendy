@@ -1007,7 +1007,14 @@ address {
         margin: .3em 0;
     }
 }
-
+@media only screen and (max-width: 720px) {
+    .aboutImgWrapper img {
+        float: none;
+    }
+    .aboutBox {
+        float: none;
+    }
+}
 
 /* ============================================================
   Module CSS
