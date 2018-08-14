@@ -1055,10 +1055,6 @@ address {
         width: 100%;
         height: auto;
     }
-    .aboutBox .h1 {
-        margin: .5em 0;
-        margin-bottom: .3em;
-    }
     .aboutButton {
         width: 75%;
         height: 3em;
