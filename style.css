@@ -1044,6 +1044,14 @@ address {
         padding-bottom: 25px;
     }
 }
+@media only screen and (max-width: 330px) {
+    .name {
+        font-size: 30px;
+        margin-top: 15px;
+        margin-left: 17px;
+
+    }
+}
 
 
 
