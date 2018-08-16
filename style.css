@@ -341,7 +341,7 @@ a, .a {
 }
 .imgBoxWrapper {
     margin: 5em auto 3em auto;
-    width: 50em;
+    max-width: 50em;
     display: flex;
     justify-content: space-between;
 }
@@ -1090,7 +1090,32 @@ address {
         margin-top: 3em;
     }
 }
-
+@media only screen and (max-width: 950px) {
+    .imgBoxWrapper {
+        display: inline-block;
+    }
+    .imgBox {
+        float: none;
+        display: inline-block;
+    }
+    .imgBox:nth-of-type(1) {
+        margin-right: 45px;
+    }
+    .imgBox:nth-of-type(3) {
+        display: block;
+        margin: 45px auto 0px auto;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .imgBox {
+        display: block;
+        margin: 45px auto 0px auto;
+    }
+    .imgBox:nth-of-type(1) {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+}
 
 
 /* ============================================================
