@@ -324,12 +324,14 @@ a, .a {
 /* ============================================================
   Gallery Page1
 ============================================================ */
+.h1--gallery1 {
+    margin: 0px;
+}
 .wrapper {
     margin-top: 5em;
     text-align: center; 
     /* hides the horizontal overflow of the section ... needed because we made next div 200%*/
 	overflow-x: hidden;
-
 }
 .imgBelt {
     width: 200%;
@@ -337,7 +339,6 @@ a, .a {
     left: 0%;
     transition: all 800ms;
 }
-
 .imgBoxWrapper {
     margin: 5em auto 3em auto;
     width: 50em;
