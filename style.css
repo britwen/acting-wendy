@@ -426,8 +426,8 @@ a, .a {
   Gallery Page2
 ============================================================ */
 .largeImg-container {
-    max-width: 600px;
-    margin: 0px auto;
+    max-width: 980px;
+    margin: 5em auto;
 
     /* this hides the work-container by default .. js shows it when you click on a thumb*/
 	display: none;
