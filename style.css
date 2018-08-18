@@ -356,16 +356,26 @@ a, .a {
     overflow: hidden;
     position: relative;
     cursor: pointer;
-
-    background-color: purple;
-
     display: block;
+    background-image: url(img/retro_thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.imgBox:nth-of-type(2) {
+    background-image: url(img/1com_thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgBox:nth-of-type(3) {
+    background-image: url(img/boxing_bag_thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .imgBox:hover .imgBox__span  {
   bottom: 20px;
   transition: .4s;
   transition-delay: .2s;
+  text-transform: uppercase;
 }
 .imgBox:hover .slider {
   padding-top: 10.75em;
