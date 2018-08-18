@@ -82,7 +82,7 @@ imgBox2__col2.addEventListener("mouseenter", function () {
 });
 // if user hovers over 3rd column of the 2nd image box display im
 imgBox2__col3.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/3com_thumb_.jpg')";
+    imgBox2.style.background = "url('/img/3com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 // if user hovers over 4th column of the 2nd image box display im
