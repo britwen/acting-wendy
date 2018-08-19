@@ -1,5 +1,7 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {  // START FIRST DOM-LOADER
 
+
+//>>>>>START<<<<<<  THIS SECTION NEEDS TO BE COMMENTED INCLUDED PROPERLY WHERE IT BELONGS
     window.onscroll = function (ev) {
         if (window.scrollY >= 2000) {
             $(".upButton").css("display", "block");
@@ -24,7 +26,28 @@
 
 
 
-        
+    $('.upButton').click(function () {
+        window.scroll({ top: 0, behavior: 'smooth'});
+    });
+
+    //function smoothScroll(duration) {
+    //    $('a[href^="#"]').on('click', function (event) {
+
+    //        var target = $($(this).attr('href'));
+    //        if (target.length) { 
+    //            event.preventDefault();
+    //            $('html, body').animate({
+    //                scrollTop: target.offset().top
+    //            }, duration);
+    //        }
+    //    });
+    //}
+    //$(function () {
+    //    smoothScroll(5000);
+    //});
+
+
+//>>>>>END<<<<<<  THIS SECTION NEEDS TO BE INCLUDED PROPERLY WHERE IT BELONGS     
    
 
 
@@ -293,5 +316,3 @@ if (window.location.href.includes("about")) {
         }
     });
 }
-
-
