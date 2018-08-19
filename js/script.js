@@ -1,5 +1,33 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {  // START FIRST DOM-LOADER
 
+    window.onscroll = function (ev) {
+        if (window.scrollY >= 2000) {
+            $(".upButton").css("display", "block");
+        }
+        else {
+            $(".upButton").css("display", "none");
+        }
+
+        if ((window.innerHeight + window.scrollY + 155) >= document.body.offsetHeight) {
+            $(".upButton").css({
+                position: "absolute",
+                bottom: "210px",
+            });
+        }
+        else {
+            $(".upButton").css({
+                position: "fixed",
+                bottom: "20px",
+            });
+        }
+    };
+
+
+
+        
+   
+
+
 //nav marker show/hide-toggle
 var navLanding__markerLanding = $('.navLanding__markerLanding');
 
@@ -147,13 +175,13 @@ $('.largeImg-return').click(function () {
 });
 // three functions that switch out content for large gallery container
 function gallery1() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="index.html" width="100%" height="900px"></object>';
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery1.html" width="100%" height="13900px"></object>';
 }
 function gallery2() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="about.html" width="100%"></object>';
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery2.html" width="100%" height="3800px"></object>';
 }
 function gallery3() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="contact.html" width="100%"></object>';
+    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery3.html" width="100%" height="3800px"></object>';
 }
 // gallery-functions are called by onclick-eventHandler which is attached to imgBox-element
 imgBox[0].onclick = gallery1;

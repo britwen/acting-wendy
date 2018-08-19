@@ -12,6 +12,7 @@
 .body {
     margin: 0;
     padding: 0;
+    position: relative; /* needed so absolute positioned up-arrow on gallery page stays on bottom of page instead of bottom of viewport*/
 }
 .h1, .h2, .h3 {
     margin: 1em 0;
@@ -426,13 +427,11 @@ a, .a {
   Gallery Page2
 ============================================================ */
 .largeImg-container {
-    max-width: 980px;
-    margin: 5em auto;
+    max-width: 700px;
+    margin: 3em auto;
 
     /* this hides the work-container by default .. js shows it when you click on a thumb*/
 	display: none;
-
-    background-color: skyblue;
 }
 /* if added img is larger than container it will still show as size of container */
 .largeImg-container	img {
@@ -448,6 +447,34 @@ a, .a {
 	margin-top: -3px;
 	opacity: 0.5;
 }
+.upButton {
+    position: fixed;
+    /*margin-left: 625px;*/
+    right: 50px;
+    /*margin-top: 560px;*/
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+    /*opacity: 0.5;*/
+    z-index: 9;
+}
+.upButton img {
+    width: 100%;
+}
+/* ============================================================
+  Ajax content for Gallery
+============================================================ */
+.largeGalleryImage {
+    width: 600px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+.imgCategory {
+    text-align: center;
+}
+
 /* ============================================================
   Contact Page
 ============================================================ */
