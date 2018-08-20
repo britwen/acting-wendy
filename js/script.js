@@ -1,56 +1,5 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {  // START FIRST DOM-LOADER
 
-
-//>>>>>START<<<<<<  THIS SECTION NEEDS TO BE COMMENTED INCLUDED PROPERLY WHERE IT BELONGS
-    window.onscroll = function (ev) {
-        if (window.scrollY >= 2000) {
-            $(".upButton").css("display", "block");
-        }
-        else {
-            $(".upButton").css("display", "none");
-        }
-
-        if ((window.innerHeight + window.scrollY + 155) >= document.body.offsetHeight) {
-            $(".upButton").css({
-                position: "absolute",
-                bottom: "210px",
-            });
-        }
-        else {
-            $(".upButton").css({
-                position: "fixed",
-                bottom: "20px",
-            });
-        }
-    };
-
-
-
-    $('.upButton').click(function () {
-        window.scroll({ top: 0, behavior: 'smooth'});
-    });
-
-    //function smoothScroll(duration) {
-    //    $('a[href^="#"]').on('click', function (event) {
-
-    //        var target = $($(this).attr('href'));
-    //        if (target.length) { 
-    //            event.preventDefault();
-    //            $('html, body').animate({
-    //                scrollTop: target.offset().top
-    //            }, duration);
-    //        }
-    //    });
-    //}
-    //$(function () {
-    //    smoothScroll(5000);
-    //});
-
-
-//>>>>>END<<<<<<  THIS SECTION NEEDS TO BE INCLUDED PROPERLY WHERE IT BELONGS     
-   
-
-
 //nav marker show/hide-toggle
 var navLanding__markerLanding = $('.navLanding__markerLanding');
 
@@ -211,7 +160,37 @@ imgBox[0].onclick = gallery1;
 imgBox[1].onclick = gallery2;
 imgBox[2].onclick = gallery3;
 
-});  //END FIRST DOM-LOADER
+});
+
+
+// display up-button on gallery page when user scrolls past 2000px
+window.onscroll = function (ev) {
+    if (window.scrollY >= 2000) {
+        $(".upButton").css("display", "block");
+    }
+    else {
+        $(".upButton").css("display", "none");
+    }
+    // position up-button absolute when user scrolls to bottom of page plus 155px, else fixed
+    if ((window.innerHeight + window.scrollY + 155) >= document.body.offsetHeight) {
+        $(".upButton").css({
+            position: "absolute",
+            bottom: "210px",
+        });
+    }
+    else {
+        $(".upButton").css({
+            position: "fixed",
+            bottom: "20px",
+        });
+    }
+};
+// smooth scroll for up-button on gallery page
+$('.upButton').click(function () {
+    window.scroll({ top: 0, behavior: 'smooth' });
+});
+
+//END FIRST DOM-LOADER
 
 
 document.addEventListener("DOMContentLoaded", function() {   // START SECOND DOM-LOADER
