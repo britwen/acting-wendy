@@ -1171,6 +1171,7 @@ address {
 #object1 {
     height: 13900px;
 }
+/*following two media queries area a pair*/
 @media only screen and  (max-width: 600px) {
     .largeGalleryImage {
         width: 400px;
@@ -1181,6 +1182,7 @@ address {
         height: 9365px;
     }
 }
+/*following two media queries area a pair*/
 @media only screen and  (max-width: 400px) {
     .largeGalleryImage {
         width: 350px;
@@ -1191,8 +1193,28 @@ address {
         height: 8233px;
     }
 }
-
-
+/*following two media queries area a pair*/
+@media only screen and (max-width: 349px) {
+    .largeGalleryImage {
+        width: 300px;
+    }
+}
+@media only screen and  (max-width: 384px) {
+    #object1 {
+        height: 7097px;
+    }
+}
+/*following two media queries area a pair*/
+@media only screen and (max-width: 310px) {
+    .largeGalleryImage {
+        width: 254px;
+    }
+}
+@media only screen and  (max-width: 345px) {
+    #object1 {
+        height: 6060px;
+    }
+}
 
 
 /* ============================================================
