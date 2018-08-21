@@ -1153,6 +1153,13 @@ address {
         margin-right: 0px;
     }
 }
+/*Media Queries -- Gallery2*/
+@media only screen and (max-width: 880px) {
+    .largeImg-return {
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+}
 
 
 /* ============================================================
