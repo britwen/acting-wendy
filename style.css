@@ -243,7 +243,9 @@ a, .a {
     display: none;
 }
 .footer {
-    margin-top: 5em;
+    height: 100px;
+    padding-top: 130px;
+    box-sizing: border-box;
 }
 /*same color as bg-color, required to hide tiny underscore from a*/
 .footer__a {
