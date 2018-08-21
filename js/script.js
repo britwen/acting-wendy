@@ -174,7 +174,7 @@ window.onscroll = function (ev) {
     if ((window.innerHeight + window.scrollY + 155) >= document.body.offsetHeight) {
         $(".upButton").css({
             position: "absolute",
-            bottom: "245px",
+            bottom: "215px",
             left: "50%",
             marginLeft: "-20px",
         });

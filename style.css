@@ -243,8 +243,7 @@ a, .a {
     display: none;
 }
 .footer {
-    height: 100px;
-    padding-top: 130px;
+    height: 70px;
     box-sizing: border-box;
 }
 /*same color as bg-color, required to hide tiny underscore from a*/
@@ -312,6 +311,7 @@ a, .a {
     text-align: center;
     line-height: 2em;
     border-radius: 5px;
+    margin-bottom: 130px;
 }
 .aboutButton:hover {
     background-color: rgba(234, 166 ,115, .8);
@@ -351,6 +351,9 @@ a, .a {
 .thumb-wrap, .largeImg-wrap {
     width: 50%;
     float: left;
+}
+.thumb-wrap {
+    margin-bottom: 130px;
 }
 .imgBox {
     float: left;
@@ -428,6 +431,9 @@ a, .a {
 /* ============================================================
   Gallery Page2
 ============================================================ */
+.largeImg-wrap {
+    margin-bottom: 70px;
+}
 .largeImg-container {
     max-width: 700px;
     margin: 3em auto;
