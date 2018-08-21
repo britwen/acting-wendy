@@ -474,7 +474,6 @@ a, .a {
 .imgCategory {
     text-align: center;
 }
-
 /* ============================================================
   Contact Page
 ============================================================ */
@@ -1160,6 +1159,32 @@ address {
         margin-top: 15px;
     }
 }
+/*media queries form first ajax-object. first gallery section.*/
+#object1 {
+    height: 13900px;
+}
+@media only screen and  (max-width: 600px) {
+    .largeGalleryImage {
+        width: 400px;
+    }
+}
+@media only screen and  (max-width: 653px) {
+    #object1 {
+        height: 9365px;
+    }
+}
+@media only screen and  (max-width: 400px) {
+    .largeGalleryImage {
+        width: 350px;
+    }
+}
+@media only screen and  (max-width: 435px) {
+    #object1 {
+        height: 8233px;
+    }
+}
+
+
 
 
 /* ============================================================

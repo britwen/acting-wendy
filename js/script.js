@@ -1,5 +1,4 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {  // START FIRST DOM-LOADER
-
 //nav marker show/hide-toggle
 var navLanding__markerLanding = $('.navLanding__markerLanding');
 
@@ -147,7 +146,7 @@ $('.largeImg-return').click(function () {
 });
 // three functions that switch out content for large gallery container
 function gallery1() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery1.html" width="100%" height="13900px"></object>';
+    document.getElementById('testi').innerHTML = '<object id="object1" type="text/html" data="gallery1.html" width="100%" height="13900px"></object>';
 }
 function gallery2() {
     document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery2.html" width="100%" height="3800px"></object>';
@@ -175,13 +174,16 @@ window.onscroll = function (ev) {
     if ((window.innerHeight + window.scrollY + 155) >= document.body.offsetHeight) {
         $(".upButton").css({
             position: "absolute",
-            bottom: "210px",
+            bottom: "245px",
+            left: "50%",
+            marginLeft: "-20px",
         });
     }
     else {
         $(".upButton").css({
             position: "fixed",
             bottom: "20px",
+            left: "auto",
         });
     }
 };
