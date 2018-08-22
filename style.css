@@ -1179,8 +1179,17 @@ address {
 /*media queries form first ajax-object. first gallery section.*/
 #object1 {
     height: 13900px;
+    width: 100%;
 }
-/*following two media queries area a pair*/
+#object2 {
+    height: 3825px;
+    width: 100%;
+}
+#object3 {
+    height: 3839px;
+    width: 100%;
+}
+/*following four media queries area a pair*/
 @media only screen and  (max-width: 600px) {
     .largeGalleryImage {
         width: 400px;
@@ -1191,7 +1200,12 @@ address {
         height: 9365px;
     }
 }
-/*following two media queries area a pair*/
+@media only screen and  (max-width: 653px) {
+    #object2 {
+        height: 2612px;
+    }
+}
+/*following four media queries area a pair*/
 @media only screen and  (max-width: 400px) {
     .largeGalleryImage {
         width: 350px;
@@ -1202,7 +1216,12 @@ address {
         height: 8233px;
     }
 }
-/*following two media queries area a pair*/
+@media only screen and  (max-width: 435px) {
+    #object2 {
+        height: 2309px;
+    }
+}
+/*following four media queries area a pair*/
 @media only screen and (max-width: 349px) {
     .largeGalleryImage {
         width: 300px;
@@ -1213,7 +1232,12 @@ address {
         height: 7097px;
     }
 }
-/*following two media queries area a pair*/
+@media only screen and  (max-width: 384px) {
+    #object2 {
+        height: 2009px;
+    }
+}
+/*following four media queries area a pair*/
 @media only screen and (max-width: 310px) {
     .largeGalleryImage {
         width: 254px;
@@ -1222,6 +1246,11 @@ address {
 @media only screen and  (max-width: 345px) {
     #object1 {
         height: 6060px;
+    }
+}
+@media only screen and  (max-width: 345px) {
+    #object2 {
+        height: 1725px;
     }
 }
 

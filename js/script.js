@@ -146,13 +146,13 @@ $('.largeImg-return').click(function () {
 });
 // three functions that switch out content for large gallery container
 function gallery1() {
-    document.getElementById('testi').innerHTML = '<object id="object1" type="text/html" data="gallery1.html" width="100%" height="13900px"></object>';
+    document.getElementById('testi').innerHTML = '<object id="object1" type="text/html" data="gallery1.html"></object>';
 }
 function gallery2() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery2.html" width="100%" height="3800px"></object>';
+    document.getElementById('testi').innerHTML = '<object id="object2" type="text/html" data="gallery2.html"></object>';
 }
 function gallery3() {
-    document.getElementById('testi').innerHTML = '<object type="text/html" data="gallery3.html" width="100%" height="3800px"></object>';
+    document.getElementById('testi').innerHTML = '<object id="object3" type="text/html" data="gallery3.html"></object>';
 }
 // gallery-functions are called by onclick-eventHandler which is attached to imgBox-element
 imgBox[0].onclick = gallery1;
@@ -164,7 +164,7 @@ imgBox[2].onclick = gallery3;
 
 // display up-button on gallery page when user scrolls past 2000px
 window.onscroll = function (ev) {
-    if (window.scrollY >= 2000) {
+    if (window.scrollY >= 1800) {
         $(".upButton").css("display", "block");
     }
     else {
