@@ -1205,6 +1205,11 @@ address {
         height: 2612px;
     }
 }
+@media only screen and  (max-width: 653px) {
+    #object3 {
+        height: 2628px;
+    }
+}
 /*following four media queries area a pair*/
 @media only screen and  (max-width: 400px) {
     .largeGalleryImage {
@@ -1221,7 +1226,12 @@ address {
         height: 2309px;
     }
 }
-/*following four media queries area a pair*/
+@media only screen and  (max-width: 435px) {
+    #object3 {
+        height: 2326px;
+    }
+}
+/*following four media queries are a pair*/
 @media only screen and (max-width: 349px) {
     .largeGalleryImage {
         width: 300px;
@@ -1235,6 +1245,11 @@ address {
 @media only screen and  (max-width: 384px) {
     #object2 {
         height: 2009px;
+    }
+}
+@media only screen and  (max-width: 384px) {
+    #object3 {
+        height: 2023px;
     }
 }
 /*following four media queries area a pair*/
@@ -1253,7 +1268,11 @@ address {
         height: 1725px;
     }
 }
-
+@media only screen and  (max-width: 345px) {
+    #object3 {
+        height: 1745px;
+    }
+}
 
 /* ============================================================
   Module CSS
