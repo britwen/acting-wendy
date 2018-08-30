@@ -534,6 +534,22 @@ a, .a {
     font-weight: 800;
     color: #eaa673;
 }
+.film-table {
+    margin: 0 auto;
+    text-align: left;
+}
+.film-table td {
+    padding: 15px 15px;
+}
+.film-table td:first-child {
+    color: #eaa673;
+    font-weight: 800;
+}
+.film-table td:nth-of-type(3) {
+    font-weight: 300;
+    font-size: .9em;
+    font-style: italic;
+}
 /* ============================================================
   Contact Page
 ============================================================ */
@@ -1299,7 +1315,7 @@ address {
     }
 }
 /*Media Queries -- Resume Page*/
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 450px) {
     .stats {
         float: none;
         margin: 0 auto;
@@ -1308,6 +1324,9 @@ address {
     .stats:nth-of-type(2) {
         float: none;
         margin: 0 auto;
+    }
+    .film-table td:nth-of-type(3) {
+        display: none;
     }
 }
 
