@@ -515,13 +515,14 @@ a, .a {
     float: left;
     text-align: left;
     margin-left: 15px;
+    margin-right: 12px;
 
     /*border: solid 1px green;*/
 }
 .stats:nth-of-type(2) {
     float: right;
     margin-right: 15px;
-    margin-left: 25px
+    margin-left: 13px;
     
     /*border: 1px dotted green;*/
 }
