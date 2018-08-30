@@ -196,6 +196,11 @@ a, .a {
     font-size: 2.34em;
     margin: .7em 0;
 }
+.h3 {
+    font-size: 1.35em; /*27px*/
+    font-weight: 800;
+    display: block;
+}
 .p {
     line-height: 1.5em;
 }
@@ -493,6 +498,40 @@ a, .a {
 #object3 {
     height: 3839px;
     width: 100%;
+}
+/* ============================================================
+  Resume Page
+============================================================ */
+.h3-resume {
+    margin: 0 auto 1em auto;
+}
+.stats-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+
+    /*border: 1px purple solid;*/
+}
+.stats {
+    float: left;
+    text-align: left;
+    margin-left: 15px;
+
+    /*border: solid 1px green;*/
+}
+.stats:nth-of-type(2) {
+    float: right;
+    margin-right: 15px;
+    margin-left: 25px
+    
+    /*border: 1px dotted green;*/
+}
+.stats-lines {
+    display: block;
+    line-height: 2;
+}
+.stats-item {
+    font-weight: 800;
+    color: #eaa673;
 }
 /* ============================================================
   Contact Page
@@ -1258,7 +1297,18 @@ address {
         height: 1745px;
     }
 }
-
+/*Media Queries -- Resume Page*/
+@media only screen and (max-width: 430px) {
+    .stats {
+        float: none;
+        margin: 0 auto;
+        max-width: 200px;
+    }
+    .stats:nth-of-type(2) {
+        float: none;
+        margin: 0 auto;
+    }
+}
 
 /* ============================================================
   Module CSS
