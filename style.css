@@ -545,7 +545,7 @@ a, .a {
     color: #eaa673;
     font-weight: 800;
 }
-.acting-table td:nth-of-type(3) {
+.acting-table td:nth-of-type(n+3) {  /*n+3 selects third elem and above*/
     font-weight: 300;
     font-size: .9em;
     font-style: italic;
@@ -1325,7 +1325,7 @@ address {
         float: none;
         margin: 0 auto;
     }
-    .acting-table td:nth-of-type(3) {
+    .acting-table td:nth-of-type(n+3) { /*n+3 selects third elem and above*/
         display: none;
     }
 }
