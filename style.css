@@ -204,6 +204,13 @@ a, .a {
 .p {
     line-height: 1.5em;
 }
+.ul {
+    margin: 0;
+    list-style-type: none;
+}
+.ul-sub {
+    font-weight: 300;
+}
 .clearfix:after {
     content: "";
     display: table;
@@ -516,6 +523,7 @@ a, .a {
     text-align: left;
     margin-left: 15px;
     margin-right: 12px;
+    line-height: 2;
 
     /*border: solid 1px green;*/
 }
@@ -528,7 +536,6 @@ a, .a {
 }
 .stats-lines {
     display: block;
-    line-height: 2;
 }
 .stats-item {
     font-weight: 800;
@@ -549,6 +556,10 @@ a, .a {
     font-weight: 300;
     font-size: .9em;
     font-style: italic;
+}
+.skills-wrapper {
+    max-width: 260px;
+    margin: 0 auto;
 }
 /* ============================================================
   Contact Page
