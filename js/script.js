@@ -191,7 +191,33 @@ window.onscroll = function (ev) {
 $('.upButton').click(function () {
     window.scroll({ top: 0, behavior: 'smooth' });
 });
-
+// if on resume-page, handle display of up-button
+if (window.location.href.includes("resume")) {
+    window.onscroll = function (ev) {
+        if (window.scrollY >= 1800) {
+            $(".upButton").css("display", "block");
+        }
+        else {
+            $(".upButton").css("display", "none");
+        }
+        // position up-button absolute when user scrolls to bottom of page plus 155px, else fixed
+        if ((window.innerHeight + window.scrollY + 55) >= document.body.offsetHeight) {
+            $(".upButton").css({
+                position: "absolute",
+                bottom: "100px",
+                left: "50%",
+                marginLeft: "-20px",
+            });
+        }
+        else {
+            $(".upButton").css({
+                position: "fixed",
+                bottom: "20px",
+                left: "auto",
+            });
+        }
+    };
+}
 //END FIRST DOM-LOADER
 
 

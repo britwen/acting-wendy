@@ -477,7 +477,7 @@ a, .a {
     height: 40px;
     display: none;
     cursor: pointer;
-    /*opacity: 0.5;*/
+    opacity: 0.5;
     z-index: 9;
 }
 .upButton img {
@@ -560,6 +560,7 @@ a, .a {
 .skills-wrapper {
     max-width: 260px;
     margin: 0 auto;
+    margin-bottom: 110px;
 }
 /* ============================================================
   Contact Page
@@ -1253,6 +1254,16 @@ address {
     .largeImg-return {
         margin-left: 15px;
         margin-top: 15px;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    .upButton {
+        right: 20px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .upButton {
+        right: 10px;
     }
 }
 /*media queries for large images and the object they are in for category 1, 2 and 3.*/
