@@ -216,8 +216,13 @@ if (window.location.href.includes("resume")) {
                 left: "auto",
             });
         }
+
     };
 }
+
+
+
+
 //END FIRST DOM-LOADER
 
 
