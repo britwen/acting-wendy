@@ -574,7 +574,7 @@ a, .a {
 ============================================================ */
 .contactBackdrop {
     height: 1184px;
-    width: 1130px;
+    max-width: 1130px;
     background-color: #eaa673;
     margin: 95px auto 0px auto;
     box-shadow: 0px 0px 28.32px 19.68px rgba(210, 184, 165, 0.33);
@@ -1369,7 +1369,10 @@ address {
         display: none;
     }
 }
+/*Media Queries -- Contact Page*/
+@media only screen and (max-width: 1030px) {
 
+}
 /* ============================================================
   Module CSS
 ============================================================ */
