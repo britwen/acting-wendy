@@ -659,7 +659,7 @@ form input[type="submit"]:hover {
     height: 412px;
     width: 879px;
     text-align: left;
-    margin-top: 21px;
+    margin-top: 80px;
     display: inline-block;
 }
 address {
@@ -671,12 +671,13 @@ address {
     border-bottom: 1px solid #f3efeb;
     display: block;
     line-height: 22px;
-    width: 184px;
+    width: 9.3em;
     margin: 2px 0px;
     font-weight: 600;
+    margin-bottom: 8px;
 }
 .linkWhiteEmail {
-    width: 280px;
+    width: 14.1em;
     font-weight: 500;
 }
 .contactSocialMedia {
@@ -1371,7 +1372,112 @@ address {
 }
 /*Media Queries -- Contact Page*/
 @media only screen and (max-width: 1030px) {
-
+    .contactBackdrop {
+        height: unset;
+        max-width: 1130px;
+        margin: 70px auto 0px auto;
+        text-align: center;
+        overflow: hidden; /*prevents margin-collapse*/
+        padding-bottom: 70px;
+    }
+    .theatricContactWrapper {
+        height: unset;
+        width: unset;
+        max-width: 477px;
+        text-align: center;
+        margin-top: 50px;
+        display: block;
+    }
+    .theatricContactWrapper p {
+        text-align: left;
+    }
+    .contactFormTxtWrapper {
+        width: 95%;
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        overflow: hidden; /*prevents margin-collapse*/
+    }
+    .h1--contact {
+        margin: 0px;
+    }
+    .contactFormWrapper {
+        width: unset;
+        max-width: 477px;
+        float: none;
+        margin: 0 auto;
+    }
+    .nameEmailWrap {
+        width: 95%;
+        display: block;
+        justify-content: unset; 
+        margin: 0 auto;
+    }
+    form input[type="text"],
+    form input[type="email"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+    form input[type="text"] {
+        margin-top: 0;
+    }
+    form input[type="subject"],
+    form input[type="submit"] {
+        width: 95%;
+    }
+    form input[type="subject"] {
+        display: none;
+    }
+    form textarea {
+        height: 180px;
+        width: 95%;
+    }
+    .commercialsContactWrapper {
+        margin: 0 auto;
+        height: unset;
+        width: unset;
+        max-width: 477px;
+        text-align: left;
+        margin-top: 85px;
+        display: block;
+    }
+    .commercialsContactWrapper h1 {
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .commercialsContactWrapper p {
+        width: 95%;
+        margin: 13px auto;
+    }
+    address {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .contactSocialMedia {
+        margin: 115px auto 0px auto;
+        width: 213px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 17px 28px 0 25px;
+        border-top: 1px solid #eacdb8;
+    }
+    .contactSocialMedia .ig {
+        height: 30px;
+        width: 30px;
+    }
+    .contactSocialMedia .fb {
+        height: 30px;
+        width: 30px;
+    }
+    .contactSocialMedia .twitter {
+        height: 30px;
+        width: 30px;
+    }
+    .contactFooter {
+        margin-top: 100px;
+    }
 }
 /* ============================================================
   Module CSS
