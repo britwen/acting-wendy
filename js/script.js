@@ -190,7 +190,7 @@ window.onscroll = function (ev) {
 // smooth scroll for up-button on gallery page
 $('.upButton').click(function () {
     window.scroll({ top: 0, behavior: 'smooth' });
-});
+});  //END FIRST DOM-LOADER
 // if on resume-page, handle display of up-button
 if (window.location.href.includes("resume")) {
     window.onscroll = function (ev) {
@@ -221,9 +221,6 @@ if (window.location.href.includes("resume")) {
 }
 
 
-
-
-//END FIRST DOM-LOADER
 
 
 document.addEventListener("DOMContentLoaded", function() {   // START SECOND DOM-LOADER
