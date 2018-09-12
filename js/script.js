@@ -257,8 +257,18 @@ placeholderBlur[3].onblur = textareaPlaceholderTxt;
 
 //START THIRD DOM-LOADER
 $(document).ready(function () {
+    // if user clicks document anywhere but the mobileNav and mobileNav has opacity then toggle
+    $(document).click(function (event) {
+        if (!$(event.target).is('.mobileNav')) {
+            if ($('.mobileNav').css('opacity') == .95) {
+                $(".navBurger").toggleClass("is-active");
+                $(".mobileNav").toggleClass("is-active");
+                $(".mobileBlackBoxBg").toggleClass("is-active");
+            }
+        }
+    });
     // burger-nav click-animation for mobile 
-    $(".navBurger").click(function() {
+    $(".navBurger").click(function (event) {
         $(this).toggleClass("is-active");
         $(".mobileNav").toggleClass("is-active");
         $(".mobileBlackBoxBg").toggleClass("is-active");
