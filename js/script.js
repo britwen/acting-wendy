@@ -34,27 +34,27 @@ var imgBox1__col5 = col5[0];
 
 // if user hovers over first column of the first image box display img
 imgBox1__col1.addEventListener("mouseenter", function () {
-    imgBox1.style.background = "url('/img/gangster_thumb.jpg')";
+    imgBox1.style.background = "url('img/gangster_thumb.jpg')";
     imgBox1.style.backgroundSize = "cover";
 });
 // if user hovers over second column of the first image box display img
 imgBox1__col2.addEventListener("mouseenter", function () {
-    imgBox1.style.background = "url('/img/business_thumb.jpg')";
+    imgBox1.style.background = "url('img/business_thumb.jpg')";
     imgBox1.style.backgroundSize = "cover";
 });
 // if user hovers over 3rd column of the first image box display im
 imgBox1__col3.addEventListener("mouseenter", function () {
-    imgBox1.style.background = "url('/img/retro_thumb.jpg')";
+    imgBox1.style.background = "url('img/retro_thumb.jpg')";
     imgBox1.style.backgroundSize = "cover";
 });
 // if user hovers over 4th column of the first image box display im
 imgBox1__col4.addEventListener("mouseenter", function () {
-    imgBox1.style.background = "url('/img/hijab_thumb.jpg')";
+    imgBox1.style.background = "url('img/hijab_thumb.jpg')";
     imgBox1.style.backgroundSize = "cover";
 });
 // if user hovers over 5th column of the first image box display im
 imgBox1__col5.addEventListener("mouseenter", function () {
-    imgBox1.style.background = "url('/img/theat_thumb.jpg')";
+    imgBox1.style.background = "url('img/theat_thumb.jpg')";
     imgBox1.style.backgroundSize = "cover";
 });
 
@@ -71,27 +71,27 @@ var imgBox2__col5 = col5[1];
 
 // if user hovers over first column of the 2nd image box display img
 imgBox2__col1.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/1com_thumb.jpg')";
+    imgBox2.style.background = "url('img/1com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 // if user hovers over second column of the 2nd image box display img
 imgBox2__col2.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/2com_thumb.jpg')";
+    imgBox2.style.background = "url('img/2com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 // if user hovers over 3rd column of the 2nd image box display im
 imgBox2__col3.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/3com_thumb.jpg')";
+    imgBox2.style.background = "url('img/3com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 // if user hovers over 4th column of the 2nd image box display im
 imgBox2__col4.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/4com_thumb.jpg')";
+    imgBox2.style.background = "url('img/4com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 // if user hovers over 5th column of the 2nd image box display im
 imgBox2__col5.addEventListener("mouseenter", function () {
-    imgBox2.style.background = "url('/img/4com_thumb.jpg')";
+    imgBox2.style.background = "url('img/4com_thumb.jpg')";
     imgBox2.style.backgroundSize = "cover";
 });
 
@@ -108,27 +108,27 @@ var imgBox3__col5 = col5[2];
 
 // if user hovers over first column of the first image box display img
 imgBox3__col1.addEventListener("mouseenter", function () {
-    imgBox3.style.background = "url('/img/kettle_thumb.jpg')";
+    imgBox3.style.background = "url('img/kettle_thumb.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
 // if user hovers over second column of the first image box display img
 imgBox3__col2.addEventListener("mouseenter", function () {
-    imgBox3.style.background = "url('/img/glove_prep_thumb.jpg')";
+    imgBox3.style.background = "url('img/glove_prep_thumb.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
 // if user hovers over 3rd column of the first image box display im
 imgBox3__col3.addEventListener("mouseenter", function () {
-    imgBox3.style.background = "url('/img/jump_rope_thumb.jpg')";
+    imgBox3.style.background = "url('img/jump_rope_thumb.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
 // if user hovers over 4th column of the first image box display im
 imgBox3__col4.addEventListener("mouseenter", function () {
-    imgBox3.style.background = "url('/img/boxing_bag_thumb.jpg')";
+    imgBox3.style.background = "url('img/boxing_bag_thumb.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
 // if user hovers over 5th column of the first image box display im
 imgBox3__col5.addEventListener("mouseenter", function () {
-    imgBox3.style.background = "url('/img/sparring_thumb.jpg')";
+    imgBox3.style.background = "url('img/sparring_thumb.jpg')";
     imgBox3.style.backgroundSize = "cover";
 });
 
