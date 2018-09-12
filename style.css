@@ -1268,6 +1268,20 @@ address {
         margin-right: 0px;
     }
 }
+/*this media query lets thumb labels appear permanently in mobile view*/
+@media only screen and (max-width: 570px) {
+    .imgBox__span  {
+      bottom: 13px;
+      transition: .4s;
+      transition-delay: .2s;
+      text-transform: uppercase;
+    }
+    .slider {
+      padding-top: 10.75em;
+      transition: .4s;
+      transition-delay: .2s;
+    }
+}
 @media only screen and (max-width: 310px) {
     .imgBox {
         width: 220px;
