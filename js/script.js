@@ -146,13 +146,13 @@ $('.largeImg-return').click(function () {
 });
 // three functions that switch out content for large gallery container
 function gallery1() {
-    document.getElementById('testi').innerHTML = '<object id="object1" type="text/html" data="gallery1.html"></object>';
+    document.getElementById('project-load').innerHTML = '<object id="object1" type="text/html" data="gallery1.html"></object>';
 }
 function gallery2() {
-    document.getElementById('testi').innerHTML = '<object id="object2" type="text/html" data="gallery2.html"></object>';
+    document.getElementById('project-load').innerHTML = '<object id="object2" type="text/html" data="gallery2.html"></object>';
 }
 function gallery3() {
-    document.getElementById('testi').innerHTML = '<object id="object3" type="text/html" data="gallery3.html"></object>';
+    document.getElementById('project-load').innerHTML = '<object id="object3" type="text/html" data="gallery3.html"></object>';
 }
 // gallery-functions are called by onclick-eventHandler which is attached to imgBox-element
 imgBox[0].onclick = gallery1;
