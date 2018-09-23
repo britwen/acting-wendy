@@ -913,7 +913,8 @@ address {
     .centerWrapper {
         position: absolute;
         left: 50%;
-        pointer-events: none;
+        /*pointer-events: none;*/
+        height: 0px;
     }
     .mobileBlackBoxBg {
         height: 78px;
