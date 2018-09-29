@@ -273,6 +273,21 @@ $(document).ready(function () {
         $(".mobileNav").toggleClass("is-active");
         $(".mobileBlackBoxBg").toggleClass("is-active");
     });
+
+
+    // DYNAMIC DATE
+    // create instance of date-object
+    var today = new Date();
+    // convert today into current year
+    var year = today.getFullYear();
+
+    // get span with year-class
+    var currentYear = document.getElementById('year');
+    // set inner-html of currentYear to year
+    currentYear.innerHTML = year;
+
+
+
 });
 //END THIRD DOM-LOADER
 
@@ -335,3 +350,4 @@ if (window.location.href.includes("about")) {
         }
     });
 }
+
