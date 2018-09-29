@@ -281,7 +281,7 @@ $(document).ready(function () {
     // convert today into current year
     var year = today.getFullYear();
 
-    // get span with year-class
+    // get span with year-id
     var currentYear = document.getElementById('year');
     // set inner-html of currentYear to year
     currentYear.innerHTML = year;
