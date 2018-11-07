@@ -401,27 +401,7 @@ a, .a {
   transition: .4s;
   transition-delay: .2s;
 }
-.col1 {
-  float: left;
-  height: 100%;
-  width: 20%;
-}
-.col2 {
-  float: left;
-  height: 100%;
-  width: 20%;
-}
-.col3 {
-  float: left;
-  height: 100%;
-  width: 20%;
-}
-.col4 {
-  float: left;
-  height: 100%;
-  width: 20%;
-}
-.col5 {
+.col {
   float: left;
   height: 100%;
   width: 20%;
