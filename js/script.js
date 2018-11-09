@@ -148,30 +148,30 @@ if (window.location.href.includes("resume")) {
 document.addEventListener("DOMContentLoaded", function() {   // START SECOND DOM-LOADER
 
 // START PLACEHOLDER TXT ON CONTACT-PAGE
+var placeholderMessages = [
+    'Enter Your Name',
+    'Enter Your Email',
+    'Enter Subject',
+    'Enter Message'
+]
+function placeholderMessage(e) {
+    var target = e.target;
 
-// functions to set input text for placeholder property
-function namePlaceholderTxt(e) {
-    placeholderBlur[0].placeholder = "Enter Your Name";
-    e.preventDefault();
+    // loop through placeholder fields
+    for (i = 0; i < document.getElementsByClassName('placeholderBlur').length; i++) {
+        // if the current target is a placeholder field..
+        if (target == document.getElementsByClassName('placeholderBlur')[i]) {
+            // ..assign it placeholder message
+            target.placeholder = placeholderMessages[i];
+        }
+    }
 }
-function emailPlaceholderTxt(e) {
-    placeholderBlur[1].placeholder = "Enter Your Email";
-    e.preventDefault();
-}
-function subjectPlaceholderTxt(e) {
-    placeholderBlur[2].placeholder = "Enter Subject";
-    e.preventDefault();
-}
-function textareaPlaceholderTxt(e) {
-    placeholderBlur[3].placeholder = "Enter Message";
-    e.preventDefault();
-}
-var placeholderBlur = document.getElementsByClassName('placeholderBlur');
-// placeholderTxt-function is called by onblur-eventHandler which is attached to placeholderBlur-element
-placeholderBlur[0].onblur = namePlaceholderTxt;
-placeholderBlur[1].onblur = emailPlaceholderTxt;
-placeholderBlur[2].onblur = subjectPlaceholderTxt;
-placeholderBlur[3].onblur = textareaPlaceholderTxt;
+// get containing element
+var formWrapper = document.getElementsByClassName('contactFormWrapper')[0];
+// attach event-listener to containing element that triggers function on blur. 
+// note that we have to use 'true' here for event-capturing.
+formWrapper.addEventListener('blur', placeholderMessage, true);
+
 // END PLACEHOLDER TXT ON CONTACT-PAGE
 
 
