@@ -55,6 +55,16 @@
     width: 87%;
     margin: auto;
 }
+/*needed so text will stay on top during jquery animation*/ 
+.txtBgLayer {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100;
+    pointer-events:none;
+}
 .igIcon {
     height: .87em;
     width: .87em;
@@ -795,6 +805,10 @@ address {
     }
     .containerLanding__screenOverlay__gridContainer {
         margin-top: 22px;
+    }
+/*needed so text will stay on top during jquery animation*/ 
+    .txtBgLayer {
+        position: relative;
     }
     .twitterIcon--hide {
         display: none;

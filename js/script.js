@@ -105,6 +105,21 @@ if ($('body').is('.indexBody')) {   // START INDEX-PAGE SPECIFIC
     $('.navLanding__ul').mouseleave(function () {
         $(navLanding__markerLanding).show();
     });
+
+    //animate intro line and black-box-bg in mobile view
+    if ($(window).width() < 570 || $(window).height() < 600) {
+        $('.mobileBlackBoxBg').hide().fadeIn(2000);
+    }
+
+    //animate name
+    $('.fNameLanding').hide().fadeIn(2000);
+    if ($(window).width() > 904) {
+        $('.nameLanding--hide').hide().fadeIn(2000);
+    }
+    else {
+        $('.lNameLanding').hide().fadeIn(2000);
+    }
+
 }  // END INDEX-PAGE SPECIFIC
 
 if ($('body').is('.aboutBody')) {   // START ABOUT-PAGE SPECIFIC
