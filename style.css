@@ -919,6 +919,8 @@ address {
         position: relative;
         left: -50%;
         background-color: rgba(0, 0, 0, 0.57);
+        /*to prevent choppy loading with jquery fade in */
+        display:none;
     }
     .mobileBlackBoxBg.is-active {
         opacity: .3;
