@@ -169,7 +169,7 @@ a, .a {
 .body--noOverflow {
     overflow: hidden;
 }
-.nameLanding {
+/*.nameLanding {
     position: absolute;
     top: 55%;
     font-family: 'Dancing Script', serif;
@@ -178,7 +178,7 @@ a, .a {
     z-index: 1000;
     color: #fff;
     margin-left: 20px; 
-}
+}*/
 .nameLanding--lastNextLine {
         display: none;
 }
@@ -770,7 +770,7 @@ address {
     }
 }
 /*Mobile design -- Landing*/
-@media only screen and (max-width: 570px), (max-height: 600px) {
+@media only screen and (max-width: 570px) {
     .mobileNav {
         position: absolute;
         left: 50%;
@@ -946,7 +946,7 @@ address {
         width: 300px;
         margin-top: 120%;
     }
-    .nameLanding {
+/*    .nameLanding {
         position: relative;
         top: 6px;
         left: 14px;
@@ -954,7 +954,7 @@ address {
         font-size: 48px;
         letter-spacing: .30em;
         color: #fff; 
-    }
+    }*/
     .nameLanding--hide {
         display: none;
     }
@@ -1034,10 +1034,10 @@ address {
         height: 100px;
         margin-top: 77%;
     }
-    .nameLanding {
+/*    .nameLanding {
         left: 25px;
         font-size: 38px;
-    }
+    }*/
 }
 @media only screen and (max-height: 440px) {
     .mobileBlackBoxBg {
@@ -1047,10 +1047,10 @@ address {
         height: 100px;
         margin-top: 67%;
     }
-    .nameLanding {
+/*    .nameLanding {
         left: 25px;
         font-size: 38px;
-    }
+    }*/
 }
 @media only screen and (max-height: 410px) {
     .mobileBlackBoxBg {
@@ -1061,10 +1061,10 @@ address {
         height: 100px;
         margin-top: 38%;
     }
-    .nameLanding {
+/*    .nameLanding {
         left: 25px;
         font-size: 38px;
-    }
+    }*/
 }
 /*Media Queries -- Header & Navigation*/
 @media only screen and (max-width: 1150px) {
@@ -1522,17 +1522,144 @@ address {
     }
 }
 /* ============================================================
-  Module CSS
+  Styles for revised landing page
 ============================================================ */
-
-
+.wrapper_header_landing {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.name_landing_small {
+    color: #fff;
+    font-size: 48px;
+    margin-left: 25px;
+    margin-top: 6px;
+}
+.nav_landing {
+    margin-right: 0px;
+}
+.a_landing {
+    color: white;
+}
+.a_landing:hover {
+    color: white;
+    text-decoration: none;
+}
+.nav__box_landing:hover > a {
+    font-size: 1.1em; 
+    transition: .1s;
+    color: #fff;
+}
+@media only screen and (max-width: 900px) {
+    .nav_landing {
+        width: 400px;
+        margin-top: 15px;
+    }
+    .name_landing_small {
+        font-size: 27px;
+        margin-left: 7px;
+    }
+}
+.navBurger__burgerBar_landing {
+    background-color: #fff;
+}
+.mobileNav_landing a {
+    font-family: 'Roboto';
+}
+.mobileNav_landing a:hover {
+    text-decoration: none;
+}
+/*animation section*/
+.cb-slideshow { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+.cb-slideshow span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*color: transparent;*/
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 21s linear infinite 0s; 
+}
+.cb-slideshow span:nth-child(1) { 
+    background-image: url(img/bg.svg) 
+}
+.cb-slideshow span:nth-child(2) { 
+    background-image: url(img/bg2.svg);
+    animation-delay: 7s; 
+}
+.cb-slideshow span:nth-child(3) { 
+    background-image: url(img/bg3.svg);
+    animation-delay: 14s; 
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    5% { opacity: 1; animation-timing-function: ease-out; }
+    33% { opacity: 1 }
+    38% { opacity: 0 }
+    100% { opacity: 0 }
+}
+/*centering overlay text*/
+.center_txt {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.margin_top {
+    margin-top: 100px;
+}
+.intro_small {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.name_landing_large {
+    font-family: 'Dancing Script', serif;
+    font-size: 84px;
+    color: #fff;
+    margin-top: 20px;
+}
+.intro_large{
+    color: #fff;
+    font-size: 63px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 570px) {
+    .margin_top {
+        margin-top: 0px;
+    }
+    .intro_small {
+        font-size: 24px;
+    }
+    .name_landing_large {
+        font-size: 63px;
+        margin-top: 15px;
+    }
+    .intro_large{
+        font-size: 47px;
+        margin-top: 15px;
+    }
+}
 /* ============================================================
-  State CSS
+  End styles for revised landing page
 ============================================================ */
-
-
-/* ============================================================
-  Theme CSS
-============================================================ */
-
-
