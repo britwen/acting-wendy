@@ -1679,7 +1679,7 @@ address {
         background-repeat: none;
         opacity: 0;
         z-index: 0;
-        animation: thumbAnimation 20s linear infinite 0s; 
+        animation: thumbAnimation 30s linear infinite 0s; 
     }
     /*1st image box*/
     .imgBox:nth-child(1) .col:nth-child(1) { 
@@ -1687,19 +1687,19 @@ address {
     }
     .imgBox:nth-child(1) .col:nth-child(2) { 
         background-image: url(img/theat_thumb.jpg);
-        animation-delay: 4s; 
+        animation-delay: 6s; 
     }
     .imgBox:nth-child(1) .col:nth-child(3) { 
         background-image: url(img/gangster_thumb.jpg);
-        animation-delay: 8s; 
+        animation-delay: 12s; 
     }
     .imgBox:nth-child(1) .col:nth-child(4) { 
         background-image: url(img/hijab_thumb.jpg);
-        animation-delay: 12s; 
+        animation-delay: 18s; 
     }
     .imgBox:nth-child(1) .col:nth-child(5) { 
         background-image: url(img/business_thumb.jpg);
-        animation-delay: 16s; 
+        animation-delay: 24s; 
     }
     /*2nd image box*/
     .imgBox:nth-child(2) .col:nth-child(1) { 
@@ -1707,19 +1707,19 @@ address {
     }
     .imgBox:nth-child(2) .col:nth-child(2) { 
         background-image: url(img/1com_thumb.jpg);
-        animation-delay: 4s; 
+        animation-delay: 6s; 
     }
     .imgBox:nth-child(2) .col:nth-child(3) { 
         background-image: url(img/2com_thumb.jpg);
-        animation-delay: 8s; 
+        animation-delay: 12s; 
     }
     .imgBox:nth-child(2) .col:nth-child(4) { 
         background-image: url(img/4com_thumb.jpg);
-        animation-delay: 12s; 
+        animation-delay: 18s; 
     }
     .imgBox:nth-child(2) .col:nth-child(5) { 
         background-image: url(img/3com_thumb.jpg);
-        animation-delay: 16s; 
+        animation-delay: 24s; 
     }
     /*3rd image box*/
     .imgBox:nth-child(3) .col:nth-child(1) { 
@@ -1727,19 +1727,19 @@ address {
     }
     .imgBox:nth-child(3) .col:nth-child(2) { 
         background-image: url(img/glove_prep_thumb.jpg);
-        animation-delay: 4s; 
+        animation-delay: 6s; 
     }
     .imgBox:nth-child(3) .col:nth-child(3) { 
         background-image: url(img/jump_rope_thumb.jpg);
-        animation-delay: 8s; 
+        animation-delay: 12s; 
     }
     .imgBox:nth-child(3) .col:nth-child(4) { 
         background-image: url(img/boxing_bag_thumb.jpg);
-        animation-delay: 12s; 
+        animation-delay: 18s; 
     }
     .imgBox:nth-child(3) .col:nth-child(5) { 
         background-image: url(img/sparring_thumb.jpg);
-        animation-delay: 16s; 
+        animation-delay: 24s; 
     }
     @keyframes thumbAnimation { 
         0% { opacity: 0; animation-timing-function: ease-in; }
