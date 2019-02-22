@@ -1625,11 +1625,11 @@ address {
     text-align: center;
 }
 .margin_top {
-    margin-top: 100px;
+    margin-top: 300px;
 }
 .intro_small {
     color: #fff;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
 }
 .name_landing_large {
@@ -1644,12 +1644,20 @@ address {
     font-weight: 700;
     margin-top: 20px;
 }
+.intro_txt {
+    color: #fff;
+    font-size: 27px;
+    font-style: italic;
+    line-height: 1.5;
+    max-width: 510px;
+    margin: 25px auto 0px auto;
+}
 @media only screen and (max-width: 570px) {
     .margin_top {
-        margin-top: 0px;
+        margin-top: 150px;
     }
     .intro_small {
-        font-size: 24px;
+        font-size: 27px;
     }
     .name_landing_large {
         font-size: 63px;
@@ -1658,6 +1666,10 @@ address {
     .intro_large{
         font-size: 47px;
         margin-top: 15px;
+    }
+    .intro_txt {
+        font-size: 20px;
+        margin-top: 20px;
     }
 }
 /* ============================================================
