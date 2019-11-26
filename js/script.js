@@ -160,6 +160,41 @@ if ($('body').is('.aboutBody')) {   // START ABOUT-PAGE SPECIFIC
 
 if ($('body').is('.galleryBody')) {   // START GALLERY-PAGE SPECIFIC
 
+
+
+    // Start Image pre-loading.
+
+    // array that holds img-urls 
+    var urlArr = [
+    'img/gangster_thumb.jpg',
+    'img/business_thumb.jpg',
+    'img/retro_thumb.jpg',
+    'img/hijab_thumb.jpg',
+    'img/theat_thumb.jpg',
+    'img/1com_thumb.jpg',
+    'img/2com_thumb.jpg',
+    'img/3com_thumb.jpg',
+    'img/4com_thumb.jpg',
+    'img/4com_thumb.jpg',
+    'img/kettle_thumb.jpg',
+    'img/glove_prep_thumb.jpg',
+    'img/jump_rope_thumb.jpg',
+    'img/boxing_bag_thumb.jpg',
+    'img/sparring_thumb.jpg'
+    ];
+
+    var preloadImage = function (url) {
+      var img = new Image();
+      img.src = url;
+    };
+
+    // Loop over array with image urls.
+    for (let i = 0; i < urlArr.length; i++) {
+      // Call preloadImage-function for every image url.
+      preloadImage(urlArr[i]);
+    } // End Image pre-loading.
+
+
     // array that holds images 
     var boxImages = [
     "url('img/gangster_thumb.jpg')",
@@ -178,6 +213,7 @@ if ($('body').is('.galleryBody')) {   // START GALLERY-PAGE SPECIFIC
     "url('img/boxing_bag_thumb.jpg')",
     "url('img/sparring_thumb.jpg')"
     ];
+
     // function that makes use of the event-object, so we can delegate from containing element to element where event occurred 
     function changeBgImg(e) {
         // assign event-target
